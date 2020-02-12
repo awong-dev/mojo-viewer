@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Control from './Control'
+import Digraph from './Digraph'
 
 class App extends React.Component {
   constructor(props) {
@@ -29,15 +30,14 @@ class App extends React.Component {
         <header className="mdc-toolbar top-bar">
           <div className="title-box">
             <h4 className="title">Mojo Visualizer</h4>
+            <Control data={this.state.graph} />
           </div>
-          <Control data={this.state.graph} />
         </header>
         <div>
           <section className="title-details">
           Shows mojo connections. Nodes are classes. Edges are mojom interfaces.
           </section>
-          <div className="main-graph">
-          </div>
+          <Digraph />
         </div>
       </main>
     );

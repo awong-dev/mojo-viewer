@@ -22,18 +22,9 @@ $mdc-theme-secondary: #005daa;
 }
 
 .card {
+  width: 400px;
   margin: 1ex;
   padding: 0px 5px 0px 5px;
-}
-
-.chart-card {
-  width: 400px;
-}
-
-.chart {
-  border-style: double;
-  padding: 1ex;
-  background-color: LightGrey;
 }
 
 .title-box {
@@ -42,6 +33,7 @@ $mdc-theme-secondary: #005daa;
 
 .title {
   margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .title-details {
@@ -49,12 +41,6 @@ $mdc-theme-secondary: #005daa;
   margin: 4px 1em 4px 1em;
 }
 
-label {
-  margin-bottom: 0.5ex;
-  margin-right: 0.5ex;
-  margin-left: 1em;
-  padding-right: 0.5ex;
-}
 
 .app-body {
 //  display: flex;
