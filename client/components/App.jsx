@@ -7,7 +7,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      graph: {},
+      graph: {nodes:[], links:[]},
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -37,7 +37,7 @@ class App extends React.Component {
           <section className="title-details">
           Shows mojo connections. Nodes are classes. Edges are mojom interfaces.
           </section>
-          <Digraph />
+          <Digraph graphData={this.state.graph} />
         </div>
       </main>
     );
