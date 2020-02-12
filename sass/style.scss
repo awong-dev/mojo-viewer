@@ -1,0 +1,79 @@
+$mdc-theme-primary: #b0bec5;
+$mdc-theme-secondary: #005daa;
+
+@import "@material/theme/mdc-theme";
+@import "@material/button/mdc-button";
+@import "@material/card/mdc-card";
+@import "@material/checkbox/mdc-checkbox";
+@import "@material/drawer/mdc-drawer";
+@import "@material/form-field/mdc-form-field";
+@import "@material/layout-grid/mdc-layout-grid";
+@import "@material/list/mdc-list";
+@import "@material/select/mdc-select";
+@import "@material/toolbar/mdc-toolbar.scss";
+@import "@material/typography/mdc-typography";
+
+.top-bar {
+  --mdc-theme-text-primary-on-primary: var(--mdc-theme-text-primary-on-dark);
+}
+
+.login-button {
+  @include mdc-button-filled-accessible($mdc-theme-primary)
+}
+
+.card {
+  margin: 1ex;
+  padding: 0px 5px 0px 5px;
+}
+
+.chart-card {
+  width: 400px;
+}
+
+.chart {
+  border-style: double;
+  padding: 1ex;
+  background-color: LightGrey;
+}
+
+.title-box {
+  margin: 4px 1em 4px 1em;
+}
+
+.title {
+  margin: 0 0 0 0;
+}
+
+.title-details {
+  font-size: 12px;
+  margin: 4px 1em 4px 1em;
+}
+
+label {
+  margin-bottom: 0.5ex;
+  margin-right: 0.5ex;
+  margin-left: 1em;
+  padding-right: 0.5ex;
+}
+
+.app-body {
+//  display: flex;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+.app-main {
+  overflow: scroll;
+}
+
+.column {
+  height: 100%;
+  width: 50%;
+}
+
+.details {
+  margin-right: 1.5rem;
+}
+

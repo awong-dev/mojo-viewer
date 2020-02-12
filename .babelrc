@@ -1,0 +1,17 @@
+{
+  // Javascript settings.
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "chrome": "60"
+      },
+      "modules" : false
+    }],
+    "@babel/preset-react"
+  ],
+  "env": {
+    "hot": {
+      "plugins": ["react-hot-loader/babel"]
+    }
+  }
+}
