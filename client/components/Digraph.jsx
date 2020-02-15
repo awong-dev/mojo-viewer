@@ -104,15 +104,11 @@ class Digraph extends React.Component {
       .domain(categories)
       .range([0, VIEWBOX_WIDTH])
       .paddingOuter(.1);
-    const vertialSpread = d3.scalePow()
-      .domain([in_degrees[0], in_degrees.slice(-1)[0]])
-      .range([400, VIEWBOX_HEIGHT - 400])
     this.simulation = d3.forceSimulation()
-      .force("link", d3.forceLink().id(n => n.id))
-      .force("charge", d3.forceManyBody().strength(n => -(calcRadius(n) * 6)))
-      .force("center", d3.forceCenter(VIEWBOX_WIDTH / 2, VIEWBOX_HEIGHT / 2))
-      .force("y", d3.forceY().y(n => vertialSpread(n.in_degree)).strength(1))
-      .force("x", d3.forceX().x(n => bandScale(n.category)).strength(1));
+      .force("x", d3.forceX().x(n => bandScale(n.category)).strength(1))
+      .force("charge", d3.forceManyBody().strength(n => -(calcRadius(n) * 2)))
+      .force("link", d3.forceLink().id(n => n.id).strength(l => 1 / (l.source.in_degree + l.target.in_degree)))
+      .force("center", d3.forceCenter(VIEWBOX_WIDTH / 2, VIEWBOX_HEIGHT / 2));
 
     this.simulation
         .nodes(graphData.nodes)
