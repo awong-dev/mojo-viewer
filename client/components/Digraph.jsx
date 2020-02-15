@@ -28,12 +28,13 @@ class Digraph extends React.Component {
       ]
     };
     const graphData = this.props.graphData;
+    console.log(graphData);
 
     // Generate the base elements in the svg for links and nodes.
     const link = graphRoot.append("g")
       .attr("class", "links")
       .selectAll("line")
-      .data(graphData.links)
+      .data(graphData.edges)
       .enter().append("line")
       .attr("stroke-width", d => 5 );
 
@@ -93,7 +94,7 @@ class Digraph extends React.Component {
         .on("tick", ticked);
 
     this.simulation.force("link")
-        .links(graphData.links);
+        .links(graphData.edges);
   }
 
   componentDidMount() {
@@ -102,7 +103,6 @@ class Digraph extends React.Component {
       .force("collide", d3.forceCollide(11))
       .force("charge", d3.forceManyBody(-4))
       .force("center", d3.forceCenter(VIEWBOX_WIDTH / 2, VIEWBOX_HEIGHT / 2));
-    this.updateGraph();
   }
 
   componentDidUpdate() {

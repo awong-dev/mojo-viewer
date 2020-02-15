@@ -15,7 +15,7 @@ async function parseGraph(filename) {
     if (node !== undefined) {
     } else {
       const new_node = {
-        node_id: next_node_id++,
+        node_id: `n${next_node_id++}`,
         name: n['qualified_name'],
         path: n['location']['path'],
         in_edges: [],
