@@ -5,4227 +5,5435 @@
       "name": "IsolatedPrerenderURLLoader",
       "path": "src/chrome/browser/prerender/isolated/isolated_prerender_url_loader.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 286,
+      "out_degree": 190
     },
     {
       "id": "n2",
       "name": "signin::ProxyingURLLoaderFactory::InProgressRequest",
       "path": "src/chrome/browser/signin/chrome_signin_proxying_url_loader_factory.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 286,
+      "out_degree": 190
     },
     {
       "id": "n3",
       "name": "previews::PreviewsLitePageRedirectServingURLLoader",
       "path": "src/chrome/browser/previews/previews_lite_page_redirect_serving_url_loader.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 286,
+      "out_degree": 190
     },
     {
       "id": "n4",
       "name": "previews::PreviewsLitePageRedirectURLLoader",
       "path": "src/chrome/browser/previews/previews_lite_page_redirect_url_loader.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 92,
+      "out_degree": 116
     },
     {
       "id": "n5",
       "name": "download::ResourceDownloader",
       "path": "src/components/download/internal/common/resource_downloader.h",
       "category": 0,
-      "component": "components/download"
+      "component": "components/download",
+      "in_degree": 0,
+      "out_degree": 74
     },
     {
       "id": "n6",
       "name": "content::AboutURLLoaderFactory::CreateLoaderAndStart",
       "path": "src/content/browser/about_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n7",
       "name": "content::(anonymous namespace)::ContentURLLoader::Start",
       "path": "src/content/browser/android/content_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 29
     },
     {
       "id": "n8",
       "name": "content::(anonymous namespace)::ContentURLLoader",
       "path": "src/content/browser/android/content_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 23,
+      "out_degree": 29
     },
     {
       "id": "n9",
       "name": "content::(anonymous namespace)::SubresourceLoader",
       "path": "src/content/browser/appcache/appcache_subresource_url_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 286,
+      "out_degree": 264
     },
     {
       "id": "n10",
       "name": "content::AppCacheUpdateJob::UpdateURLLoaderRequest",
       "path": "src/content/browser/appcache/appcache_update_url_loader_request.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 74
     },
     {
       "id": "n11",
       "name": "content::AppCacheURLLoaderJob",
       "path": "src/content/browser/appcache/appcache_url_loader_job.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 92,
+      "out_degree": 116
     },
     {
       "id": "n12",
       "name": "content::StartBlobInternalsURLLoader",
       "path": "src/content/browser/blob_storage/blob_internals_url_loader.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n13",
       "name": "content::(anonymous namespace)::WriteData",
       "path": "src/content/browser/data_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n14",
       "name": "content::DataURLLoaderFactory::CreateLoaderAndStart",
       "path": "src/content/browser/data_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n15",
       "name": "content::InterceptionJob",
       "path": "src/content/browser/devtools/devtools_url_loader_interceptor.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 286,
+      "out_degree": 190
     },
     {
       "id": "n16",
       "name": "content::(anonymous namespace)::FileSystemEntryURLLoader",
       "path": "src/content/browser/file_system/file_system_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 92,
+      "out_degree": 116
     },
     {
       "id": "n17",
       "name": "content::(anonymous namespace)::FileURLLoader",
       "path": "src/content/browser/loader/file_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 92,
+      "out_degree": 116
     },
     {
       "id": "n18",
       "name": "content::(anonymous namespace)::FileURLDirectoryLoader",
       "path": "src/content/browser/loader/file_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 92,
+      "out_degree": 116
     },
     {
       "id": "n19",
       "name": "content::(anonymous namespace)::FileURLDirectoryLoader::Start",
       "path": "src/content/browser/loader/file_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n20",
       "name": "content::PrefetchURLLoader",
       "path": "src/content/browser/loader/prefetch_url_loader.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 190
     },
     {
       "id": "n21",
       "name": "content::(anonymous namespace)::DelegatingURLLoaderClient",
       "path": "src/content/browser/service_worker/service_worker_fetch_dispatcher.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 116
     },
     {
       "id": "n22",
       "name": "content::ServiceWorkerInstalledScriptLoader",
       "path": "src/content/browser/service_worker/service_worker_installed_script_loader.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n23",
       "name": "content::ServiceWorkerNavigationLoader",
       "path": "src/content/browser/service_worker/service_worker_navigation_loader.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 92,
+      "out_degree": 116
     },
     {
       "id": "n24",
       "name": "content::ServiceWorkerNewScriptLoader",
       "path": "src/content/browser/service_worker/service_worker_new_script_loader.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 190
     },
     {
       "id": "n25",
       "name": "content::ServiceWorkerUpdatedScriptLoader::ThrottlingURLLoaderCoreWrapper::StartInternalOnUI",
       "path": "src/content/browser/service_worker/service_worker_updated_script_loader.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n26",
       "name": "content::ServiceWorkerUpdatedScriptLoader::ThrottlingURLLoaderCoreWrapper::LoaderOnUI",
       "path": "src/content/browser/service_worker/service_worker_updated_script_loader.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n27",
       "name": "content::ServiceWorkerUpdatedScriptLoader",
       "path": "src/content/browser/service_worker/service_worker_updated_script_loader.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 116
     },
     {
       "id": "n28",
       "name": "content::(anonymous namespace)::RedirectResponseURLLoader",
       "path": "src/content/browser/web_package/prefetched_signed_exchange_cache.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n29",
       "name": "content::(anonymous namespace)::InnerResponseURLLoader",
       "path": "src/content/browser/web_package/prefetched_signed_exchange_cache.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n30",
       "name": "content::SignedExchangeLoader",
       "path": "src/content/browser/web_package/signed_exchange_loader.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 306
     },
     {
       "id": "n31",
       "name": "content::(anonymous namespace)::InterceptorForHistoryNavigationFromNetwork",
       "path": "src/content/browser/web_package/web_bundle_handle.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n32",
       "name": "content::(anonymous namespace)::InterceptorForNetwork",
       "path": "src/content/browser/web_package/web_bundle_handle.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n33",
       "name": "content::(anonymous namespace)::InterceptorForFile",
       "path": "src/content/browser/web_package/web_bundle_handle.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n34",
       "name": "content::(anonymous namespace)::RedirectURLLoader",
       "path": "src/content/browser/web_package/web_bundle_handle.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n35",
       "name": "content::WebBundleURLLoaderFactory::EntryLoader",
       "path": "src/content/browser/web_package/web_bundle_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n36",
       "name": "content::(anonymous namespace)::CallOnError",
       "path": "src/content/browser/webui/web_ui_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n37",
       "name": "content::(anonymous namespace)::ReadData",
       "path": "src/content/browser/webui/web_ui_url_loader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n38",
       "name": "content::WorkerScriptLoader",
       "path": "src/content/browser/worker_host/worker_script_loader.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 190
     },
     {
       "id": "n39",
       "name": "content::(anonymous namespace)::URLLoaderRelay",
       "path": "src/content/renderer/loader/child_url_loader_factory_bundle.cc",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 194,
+      "out_degree": 190
     },
     {
       "id": "n40",
       "name": "content::ChildURLLoaderFactoryBundle::CreateLoaderAndStart",
       "path": "src/content/renderer/loader/child_url_loader_factory_bundle.cc",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n41",
       "name": "content::NavigationBodyLoader",
       "path": "src/content/renderer/loader/navigation_body_loader.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 194,
+      "out_degree": 74
     },
     {
       "id": "n42",
       "name": "content::URLLoaderClientImpl",
       "path": "src/content/renderer/loader/url_loader_client_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 194,
+      "out_degree": 74
     },
     {
       "id": "n43",
       "name": "content::NavigationPreloadRequest",
       "path": "src/content/renderer/service_worker/navigation_preload_request.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 194,
+      "out_degree": 74
     },
     {
       "id": "n44",
       "name": "content::(anonymous namespace)::HeaderRewritingURLLoaderClient",
       "path": "src/content/renderer/service_worker/service_worker_subresource_loader.cc",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 0,
+      "out_degree": 116
     },
     {
       "id": "n45",
       "name": "content::ServiceWorkerSubresourceLoader",
       "path": "src/content/renderer/service_worker/service_worker_subresource_loader.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 96,
+      "out_degree": 116
     },
     {
       "id": "n46",
       "name": "extensions::WebRequestProxyingURLLoaderFactory::InProgressRequest",
       "path": "src/extensions/browser/api/web_request/web_request_proxying_url_loader_factory.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 220,
+      "out_degree": 142
     },
     {
       "id": "n47",
       "name": "extensions::(anonymous namespace)::ExtensionURLLoaderFactory::LoadExtension",
       "path": "src/extensions/browser/extension_protocols.cc",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 0,
+      "out_degree": 87
     },
     {
       "id": "n48",
       "name": "network::cors::CorsURLLoader",
       "path": "src/services/network/cors/cors_url_loader.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 286,
+      "out_degree": 190
     },
     {
       "id": "n49",
       "name": "network::EmptyURLLoaderClient",
       "path": "src/services/network/empty_url_loader_client.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 194,
+      "out_degree": 74
     },
     {
       "id": "n50",
       "name": "network::(anonymous namespace)::SimpleURLLoaderImpl",
       "path": "src/services/network/public/cpp/simple_url_loader.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 194,
+      "out_degree": 74
     },
     {
       "id": "n51",
       "name": "network::URLLoader",
       "path": "src/services/network/url_loader.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 124,
+      "out_degree": 122
     },
     {
       "id": "n52",
       "name": "storage::BlobURLLoader",
       "path": "src/storage/browser/blob/blob_url_loader.h",
       "category": 1,
-      "component": "storage/browser"
+      "component": "storage/browser",
+      "in_degree": 92,
+      "out_degree": 116
     },
     {
       "id": "n53",
       "name": "blink::MimeSniffingURLLoader",
       "path": "src/third_party/blink/public/common/loader/mime_sniffing_url_loader.h",
       "category": 0,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 194,
+      "out_degree": 190
     },
     {
       "id": "n54",
       "name": "blink::ThrottlingURLLoader",
       "path": "src/third_party/blink/public/common/loader/throttling_url_loader.h",
       "category": 0,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 194,
+      "out_degree": 74
     },
     {
       "id": "n55",
       "name": "IPCDataSource",
       "path": "src/chrome/services/media_gallery_util/ipc_data_source.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n56",
       "name": "(anonymous namespace)::LocalMediaDataSource",
       "path": "src/chrome/browser/thumbnail/generator/android/local_media_data_source_factory.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n57",
       "name": "chromeos::assistant::Service",
       "path": "src/chromeos/services/assistant/service.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 1,
+      "out_degree": 4
     },
     {
       "id": "n58",
       "name": "AssistantClientImpl",
       "path": "src/chrome/browser/ui/ash/assistant/assistant_client_impl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n59",
       "name": "media_router::CastMediaController",
       "path": "src/chrome/browser/media/router/providers/cast/cast_media_controller.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 6,
+      "out_degree": 3
     },
     {
       "id": "n60",
       "name": "CastMediaNotificationItem",
       "path": "src/chrome/browser/ui/global_media_controls/cast_media_notification_item.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 6,
+      "out_degree": 0
     },
     {
       "id": "n61",
       "name": "media_router::WiredDisplayMediaRouteProvider::Presentation",
       "path": "src/chrome/browser/media/router/providers/wired_display/wired_display_media_route_provider.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n62",
       "name": "std::__1::pair",
       "path": "src/buildtools/third_party/libc++/trunk/include/utility",
       "category": 0,
-      "component": "buildtools/third_party"
+      "component": "buildtools/third_party",
+      "in_degree": 0,
+      "out_degree": 51
     },
     {
       "id": "n63",
       "name": "MediaNotificationService::Session",
       "path": "src/chrome/browser/ui/global_media_controls/media_notification_service.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 5,
+      "out_degree": 0
     },
     {
       "id": "n64",
       "name": "std::__Cr::pair",
       "path": "src/buildtools/third_party/libc++/trunk/include/utility",
       "category": 0,
-      "component": "buildtools/third_party"
+      "component": "buildtools/third_party",
+      "in_degree": 0,
+      "out_degree": 130
     },
     {
       "id": "n65",
       "name": "media_session::MediaController::AddObserver",
       "path": "src/services/media_session/media_controller.cc",
       "category": 0,
-      "component": "services/media_session"
+      "component": "services/media_session",
+      "in_degree": 0,
+      "out_degree": 28
     },
     {
       "id": "n66",
       "name": "MediaNotificationService",
       "path": "src/chrome/browser/ui/global_media_controls/media_notification_service.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 5,
+      "out_degree": 0
     },
     {
       "id": "n67",
       "name": "media_session::AudioFocusManager::SourceObserverHolder",
       "path": "src/services/media_session/audio_focus_manager.cc",
       "category": 0,
-      "component": "services/media_session"
+      "component": "services/media_session",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n68",
       "name": "chromeos::assistant::FakeAssistantSettingsManagerImpl::StartSpeakerIdEnrollment",
       "path": "src/chromeos/services/assistant/fake_assistant_settings_manager_impl.cc",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n69",
       "name": "chromeos::AssistantOptInFlowScreenHandler",
       "path": "src/chrome/browser/ui/webui/chromeos/login/assistant_optin_flow_screen_handler.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n70",
       "name": "device::FingerprintChromeOS::AddFingerprintObserver",
       "path": "src/services/device/fingerprint/fingerprint_chromeos.cc",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n71",
       "name": "chromeos::FingerprintSetupScreenHandler",
       "path": "src/chrome/browser/ui/webui/chromeos/login/fingerprint_setup_screen_handler.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n72",
       "name": "network::CookieManager::ListenerRegistration",
       "path": "src/services/network/cookie_manager.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 28
     },
     {
       "id": "n73",
       "name": "chromeos::GaiaScreenHandler",
       "path": "src/chrome/browser/ui/webui/chromeos/login/gaia_screen_handler.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n74",
       "name": "network::RestrictedCookieManager::Listener",
       "path": "src/services/network/restricted_cookie_manager.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 28
     },
     {
       "id": "n75",
       "name": "DownloadsListTracker",
       "path": "src/chrome/browser/ui/webui/downloads/downloads_list_tracker.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n76",
       "name": "MockPage",
       "path": "src/chrome/browser/ui/webui/downloads/mock_downloads_page.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n77",
       "name": "chromeos::settings::FingerprintHandler",
       "path": "src/chrome/browser/ui/webui/settings/chromeos/fingerprint_handler.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n78",
       "name": "IsolatedXRRuntimeProvider",
       "path": "src/chrome/services/isolated_xr_device/xr_runtime_provider.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n79",
       "name": "vr::IsolatedVRDeviceProvider",
       "path": "src/chrome/browser/vr/service/isolated_device_provider.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n80",
       "name": "IsolatedXRRuntimeProvider",
       "path": "src/chrome/services/isolated_xr_device/xr_runtime_provider.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n81",
       "name": "RendererUpdater::InitializeRenderer",
       "path": "src/chrome/browser/profiles/renderer_updater.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n82",
       "name": "ChromeRenderThreadObserver::ChromeOSListener",
       "path": "src/chrome/renderer/chrome_render_thread_observer.h",
       "category": 2,
-      "component": "chrome/renderer"
+      "component": "chrome/renderer",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n83",
       "name": "PluginObserver::ComponentObserver",
       "path": "src/chrome/browser/plugins/plugin_observer.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n84",
       "name": "ChromePluginPlaceholder",
       "path": "src/chrome/renderer/plugins/chrome_plugin_placeholder.h",
       "category": 2,
-      "component": "chrome/renderer"
+      "component": "chrome/renderer",
+      "in_degree": 6,
+      "out_degree": 0
     },
     {
       "id": "n85",
       "name": "PluginObserver::PluginPlaceholderHost",
       "path": "src/chrome/browser/plugins/plugin_observer.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n86",
       "name": "content::(anonymous namespace)::InterfaceFilterImpl",
       "path": "src/content/browser/interface_provider_filtering.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 47,
+      "out_degree": 27
     },
     {
       "id": "n87",
       "name": "ServiceIPCServer",
       "path": "src/chrome/service/service_ipc_server.h",
       "category": 0,
-      "component": "chrome/service"
+      "component": "chrome/service",
+      "in_degree": 24,
+      "out_degree": 0
     },
     {
       "id": "n88",
       "name": "media::(anonymous namespace)::CdmFactoryImpl",
       "path": "src/media/mojo/services/cdm_service.cc",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 0,
+      "out_degree": 20
     },
     {
       "id": "n89",
       "name": "media::InterfaceFactoryImpl",
       "path": "src/media/mojo/services/interface_factory_impl.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 0,
+      "out_degree": 81
     },
     {
       "id": "n90",
       "name": "media::InterfaceFactoryImpl",
       "path": "src/media/mojo/services/interface_factory_impl.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 0,
+      "out_degree": 81
     },
     {
       "id": "n91",
       "name": "media::InterfaceFactoryImpl",
       "path": "src/media/mojo/services/interface_factory_impl.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 0,
+      "out_degree": 81
     },
     {
       "id": "n92",
       "name": "service_manager::InterfaceProvider",
       "path": "src/services/service_manager/public/cpp/interface_provider.h",
       "category": 0,
-      "component": "services/service_manager"
+      "component": "services/service_manager",
+      "in_degree": 0,
+      "out_degree": 27
     },
     {
       "id": "n93",
       "name": "printing::(anonymous namespace)::RegisterConverterClient",
       "path": "src/chrome/services/printing/pdf_to_emf_converter.cc",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 2
     },
     {
       "id": "n94",
       "name": "(anonymous namespace)::ServicePdfToEmfConverterClientImpl",
       "path": "src/chrome/service/service_utility_process_host.cc",
       "category": 0,
-      "component": "chrome/service"
+      "component": "chrome/service",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n95",
       "name": "SandboxedRarAnalyzer",
       "path": "src/chrome/services/file_util/public/cpp/sandboxed_rar_analyzer.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n96",
       "name": "FileUtilService",
       "path": "src/chrome/services/file_util/file_util_service.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 14,
+      "out_degree": 0
     },
     {
       "id": "n97",
       "name": "SandboxedZipAnalyzer",
       "path": "src/chrome/services/file_util/public/cpp/sandboxed_zip_analyzer.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n98",
       "name": "ZipFileCreator",
       "path": "src/chrome/services/file_util/public/cpp/zip_file_creator.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n99",
       "name": "FileUtilService",
       "path": "src/chrome/services/file_util/file_util_service.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 14,
+      "out_degree": 0
     },
     {
       "id": "n100",
       "name": "MediaParserProvider",
       "path": "src/chrome/services/media_gallery_util/public/cpp/media_parser_provider.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n101",
       "name": "MediaParserFactory",
       "path": "src/chrome/services/media_gallery_util/media_parser_factory.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n102",
       "name": "std::__1::__tuple_leaf",
       "path": "src/buildtools/third_party/libc++/trunk/include/tuple",
       "category": 0,
-      "component": "buildtools/third_party"
+      "component": "buildtools/third_party",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n103",
       "name": "RemovableStorageWriter",
       "path": "src/chrome/services/removable_storage_writer/removable_storage_writer.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 6,
+      "out_degree": 0
     },
     {
       "id": "n104",
       "name": "std::__Cr::__tuple_leaf",
       "path": "src/buildtools/third_party/libc++/trunk/include/tuple",
       "category": 0,
-      "component": "buildtools/third_party"
+      "component": "buildtools/third_party",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n105",
       "name": "extensions::image_writer::ImageWriterUtilityClient",
       "path": "src/chrome/browser/extensions/api/image_writer_private/image_writer_utility_client.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n106",
       "name": "SharingServiceHost",
       "path": "src/chrome/browser/sharing/webrtc/sharing_service_host.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 66
     },
     {
       "id": "n107",
       "name": "sharing::SharingImpl",
       "path": "src/chrome/services/sharing/sharing_impl.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n108",
       "name": "SharingServiceHost",
       "path": "src/chrome/browser/sharing/webrtc/sharing_service_host.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 66
     },
     {
       "id": "n109",
       "name": "network::P2PSocketManager",
       "path": "src/services/network/p2p/socket_manager.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 28,
+      "out_degree": 19
     },
     {
       "id": "n110",
       "name": "sharing::IpcNetworkManager",
       "path": "src/chrome/services/sharing/webrtc/ipc_network_manager.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n111",
       "name": "network::P2PSocket",
       "path": "src/services/network/p2p/socket.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 3,
+      "out_degree": 3
     },
     {
       "id": "n112",
       "name": "sharing::P2PSocketClient",
       "path": "src/chrome/services/sharing/webrtc/p2p_socket_client.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 3,
+      "out_degree": 3
     },
     {
       "id": "n113",
       "name": "SharingWebRtcConnectionHost",
       "path": "src/chrome/browser/sharing/webrtc/sharing_webrtc_connection_host.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 30,
+      "out_degree": 30
     },
     {
       "id": "n114",
       "name": "sharing::SharingWebRtcConnection",
       "path": "src/chrome/services/sharing/webrtc/sharing_webrtc_connection.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 30,
+      "out_degree": 42
     },
     {
       "id": "n115",
       "name": "SharingWebRtcConnectionHost",
       "path": "src/chrome/browser/sharing/webrtc/sharing_webrtc_connection_host.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 30,
+      "out_degree": 30
     },
     {
       "id": "n116",
       "name": "WebRtcSignallingHostFCM",
       "path": "src/chrome/browser/sharing/webrtc/webrtc_signalling_host_fcm.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 12
     },
     {
       "id": "n117",
       "name": "sharing::SharingWebRtcConnection",
       "path": "src/chrome/services/sharing/webrtc/sharing_webrtc_connection.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 30,
+      "out_degree": 42
     },
     {
       "id": "n118",
       "name": "AntiVirusMetricsProvider",
       "path": "src/chrome/browser/metrics/antivirus_metrics_provider_win.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n119",
       "name": "UtilWinImpl",
       "path": "src/chrome/services/util_win/util_win_impl.h",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 5,
+      "out_degree": 0
     },
     {
       "id": "n120",
       "name": "shell_integration::(anonymous namespace)::IsPinnedToTaskbarHelper",
       "path": "src/chrome/browser/shell_integration_win.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n121",
       "name": "UtilWinHelper",
       "path": "src/chrome/browser/win/chrome_select_file_dialog_factory.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n122",
       "name": "ModuleInspector",
       "path": "src/chrome/browser/win/conflicts/module_inspector.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 2
     },
     {
       "id": "n123",
       "name": "ExternalProcessImporterClient",
       "path": "src/chrome/browser/importer/external_process_importer_client.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n124",
       "name": "ProfileImportImpl",
       "path": "src/chrome/utility/importer/profile_import_impl.h",
       "category": 0,
-      "component": "chrome/utility"
+      "component": "chrome/utility",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n125",
       "name": "drivefs::DriveFsConnectionImpl::Connect",
       "path": "src/chromeos/components/drivefs/drivefs_bootstrap.cc",
       "category": 0,
-      "component": "chromeos/components"
+      "component": "chromeos/components",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n126",
       "name": "drivefs::FakeDriveFs",
       "path": "src/chromeos/components/drivefs/fake_drivefs.h",
       "category": 0,
-      "component": "chromeos/components"
+      "component": "chromeos/components",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n127",
       "name": "drivefs::DriveFsConnectionImpl",
       "path": "src/chromeos/components/drivefs/drivefs_bootstrap.cc",
       "category": 0,
-      "component": "chromeos/components"
+      "component": "chromeos/components",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n128",
       "name": "chromeos::system::DarkResumeController",
       "path": "src/chromeos/components/power/dark_resume_controller.h",
       "category": 0,
-      "component": "chromeos/components"
+      "component": "chromeos/components",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n129",
       "name": "device::WakeLockProvider::NotifyOnWakeLockDeactivation",
       "path": "src/services/device/wake_lock/wake_lock_provider.cc",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n130",
       "name": "chromeos::(anonymous namespace)::CrosHealthdClientImpl::BootstrapMojoConnection",
       "path": "src/chromeos/dbus/cros_healthd/cros_healthd_client.cc",
       "category": 0,
-      "component": "chromeos/dbus"
+      "component": "chromeos/dbus",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n131",
       "name": "chromeos::cros_healthd::FakeCrosHealthdClient",
       "path": "src/chromeos/dbus/cros_healthd/fake_cros_healthd_client.h",
       "category": 0,
-      "component": "chromeos/dbus"
+      "component": "chromeos/dbus",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n132",
       "name": "chromeos::cros_healthd::FakeCrosHealthdClient::BootstrapMojoConnection",
       "path": "src/chromeos/dbus/cros_healthd/fake_cros_healthd_client.cc",
       "category": 0,
-      "component": "chromeos/dbus"
+      "component": "chromeos/dbus",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n133",
       "name": "chromeos::cros_healthd::(anonymous namespace)::ServiceConnectionImpl",
       "path": "src/chromeos/services/cros_healthd/public/cpp/service_connection.cc",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n134",
       "name": "ash::AssistantState::AddMojomObserver",
       "path": "src/ash/public/cpp/assistant/assistant_state.cc",
       "category": 0,
-      "component": "ash/public"
+      "component": "ash/public",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n135",
       "name": "chromeos::assistant::AssistantStateProxy",
       "path": "src/chromeos/services/assistant/assistant_state_proxy.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n136",
       "name": "AssistantServiceConnection",
       "path": "src/chrome/browser/ui/ash/assistant/assistant_service_connection.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n137",
       "name": "chromeos::cellular_setup::OtaActivator",
       "path": "src/chromeos/services/cellular_setup/ota_activator.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n138",
       "name": "chromeos::input_method::ImeServiceConnector",
       "path": "src/chrome/browser/chromeos/input_method/ime_service_connector.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 1
     },
     {
       "id": "n139",
       "name": "chromeos::ime::ImeService",
       "path": "src/chromeos/services/ime/ime_service.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 1,
+      "out_degree": 1
     },
     {
       "id": "n140",
       "name": "chromeos::secure_channel::FakeClientConnectionParameters",
       "path": "src/chromeos/services/secure_channel/fake_client_connection_parameters.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 2
     },
     {
       "id": "n141",
       "name": "chromeos::secure_channel::ChannelImpl",
       "path": "src/chromeos/services/secure_channel/channel_impl.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n142",
       "name": "chromeos::secure_channel::FakeConnectionDelegate",
       "path": "src/chromeos/services/secure_channel/fake_connection_delegate.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 2
     },
     {
       "id": "n143",
       "name": "chromeos::secure_channel::ClientChannelImpl",
       "path": "src/chromeos/services/secure_channel/public/cpp/client/client_channel_impl.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 1,
+      "out_degree": 2
     },
     {
       "id": "n144",
       "name": "chromeos::secure_channel::FakeChannel",
       "path": "src/chromeos/services/secure_channel/fake_channel.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n145",
       "name": "chromeos::secure_channel::SingleClientMessageProxyImpl",
       "path": "src/chromeos/services/secure_channel/single_client_message_proxy_impl.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n146",
       "name": "chromeos::secure_channel::ClientConnectionParametersImpl",
       "path": "src/chromeos/services/secure_channel/client_connection_parameters_impl.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n147",
       "name": "chromeos::secure_channel::ConnectionAttemptImpl",
       "path": "src/chromeos/services/secure_channel/public/cpp/client/connection_attempt_impl.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n148",
       "name": "chromeos::secure_channel::FakeSecureChannel",
       "path": "src/chromeos/services/secure_channel/fake_secure_channel.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 2
     },
     {
       "id": "n149",
       "name": "autofill::CreditCardFIDOAuthenticator",
       "path": "src/components/autofill/core/browser/payments/credit_card_fido_authenticator.h",
       "category": 1,
-      "component": "components/autofill"
+      "component": "components/autofill",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n150",
       "name": "content::InternalAuthenticatorImpl",
       "path": "src/components/autofill/content/browser/webauthn/internal_authenticator_impl.h",
       "category": 1,
-      "component": "components/autofill"
+      "component": "components/autofill",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n151",
       "name": "autofill::CreditCardFIDOAuthenticator",
       "path": "src/components/autofill/core/browser/payments/credit_card_fido_authenticator.h",
       "category": 1,
-      "component": "components/autofill"
+      "component": "components/autofill",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n152",
       "name": "data_reduction_proxy::DataReductionProxyService::AddThrottleConfigObserver",
       "path": "src/components/data_reduction_proxy/core/browser/data_reduction_proxy_service.cc",
       "category": 1,
-      "component": "components/data_reduction_proxy"
+      "component": "components/data_reduction_proxy",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n153",
       "name": "data_reduction_proxy::DataReductionProxyURLLoaderThrottle",
       "path": "src/components/data_reduction_proxy/content/common/data_reduction_proxy_url_loader_throttle.h",
       "category": 0,
-      "component": "components/data_reduction_proxy"
+      "component": "components/data_reduction_proxy",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n154",
       "name": "data_reduction_proxy::DataReductionProxyThrottleManager",
       "path": "src/components/data_reduction_proxy/core/common/data_reduction_proxy_throttle_manager.h",
       "category": 0,
-      "component": "components/data_reduction_proxy"
+      "component": "components/data_reduction_proxy",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n155",
       "name": "viz::VSyncParameterListener",
       "path": "src/components/viz/service/display_embedder/vsync_parameter_listener.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n156",
       "name": "exo::VSyncTimingManager",
       "path": "src/components/exo/vsync_timing_manager.h",
       "category": 0,
-      "component": "components/exo"
+      "component": "components/exo",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n157",
       "name": "media_message_center::MediaSessionNotificationItem",
       "path": "src/components/media_message_center/media_session_notification_item.h",
       "category": 0,
-      "component": "components/media_message_center"
+      "component": "components/media_message_center",
+      "in_degree": 11,
+      "out_degree": 0
     },
     {
       "id": "n158",
       "name": "media_session::MediaController::ImageObserverHolder",
       "path": "src/services/media_session/media_controller.cc",
       "category": 0,
-      "component": "services/media_session"
+      "component": "services/media_session",
+      "in_degree": 0,
+      "out_degree": 24
     },
     {
       "id": "n159",
       "name": "media::remoting::DemuxerStreamAdapter",
       "path": "src/media/remoting/demuxer_stream_adapter.h",
       "category": 0,
-      "component": "media/remoting"
+      "component": "media/remoting",
+      "in_degree": 0,
+      "out_degree": 9
     },
     {
       "id": "n160",
       "name": "mirroring::CastRemotingSender",
       "path": "src/components/mirroring/browser/cast_remoting_sender.h",
       "category": 1,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n161",
       "name": "mirroring::CastMirroringServiceHost::CreateAudioStream::(anonymous class)::operator Call",
       "path": "src/chrome/browser/media/cast_mirroring_service_host.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n162",
       "name": "mirroring::CapturedAudioInput",
       "path": "src/components/mirroring/service/captured_audio_input.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 16,
+      "out_degree": 12
     },
     {
       "id": "n163",
       "name": "media::MojoAudioInputStream",
       "path": "src/media/mojo/services/mojo_audio_input_stream.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 12,
+      "out_degree": 12
     },
     {
       "id": "n164",
       "name": "audio::InputStream",
       "path": "src/services/audio/input_stream.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 12,
+      "out_degree": 20
     },
     {
       "id": "n165",
       "name": "audio::LoopbackStream",
       "path": "src/services/audio/loopback_stream.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 12,
+      "out_degree": 20
     },
     {
       "id": "n166",
       "name": "android_webview::AwContentBrowserClient::CreateNetworkContext",
       "path": "src/android_webview/browser/aw_content_browser_client.cc",
       "category": 1,
-      "component": "android_webview/browser"
+      "component": "android_webview/browser",
+      "in_degree": 0,
+      "out_degree": 10
     },
     {
       "id": "n167",
       "name": "mirroring::MockNetworkContext",
       "path": "src/components/mirroring/service/fake_network_service.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 95,
+      "out_degree": 0
     },
     {
       "id": "n168",
       "name": "chromeos::WilcoDtcSupportdNetworkContextImpl",
       "path": "src/chrome/browser/chromeos/wilco_dtc_supportd/wilco_dtc_supportd_network_context.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 10
     },
     {
       "id": "n169",
       "name": "ProfileNetworkContextService::CreateNetworkContext",
       "path": "src/chrome/browser/net/profile_network_context_service.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 40
     },
     {
       "id": "n170",
       "name": "SystemNetworkContextManager",
       "path": "src/chrome/browser/net/system_network_context_manager.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 40
     },
     {
       "id": "n171",
       "name": "data_reduction_proxy::WarmupURLFetcher",
       "path": "src/components/data_reduction_proxy/core/browser/warmup_url_fetcher.h",
       "category": 1,
-      "component": "components/data_reduction_proxy"
+      "component": "components/data_reduction_proxy",
+      "in_degree": 0,
+      "out_degree": 40
     },
     {
       "id": "n172",
       "name": "mirroring::Session",
       "path": "src/components/mirroring/service/session.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 0,
+      "out_degree": 59
     },
     {
       "id": "n173",
       "name": "safe_browsing::SafeBrowsingNetworkContext::SharedURLLoaderFactory",
       "path": "src/components/safe_browsing/core/browser/safe_browsing_network_context.cc",
       "category": 1,
-      "component": "components/safe_browsing"
+      "component": "components/safe_browsing",
+      "in_degree": 0,
+      "out_degree": 40
     },
     {
       "id": "n174",
       "name": "content::StoragePartitionImpl",
       "path": "src/content/browser/storage_partition_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 108,
+      "out_degree": 120
     },
     {
       "id": "n175",
       "name": "content::StoragePartitionImpl",
       "path": "src/content/browser/storage_partition_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 108,
+      "out_degree": 120
     },
     {
       "id": "n176",
       "name": "content::StoragePartitionImpl",
       "path": "src/content/browser/storage_partition_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 108,
+      "out_degree": 120
     },
     {
       "id": "n177",
       "name": "content::ContentBrowserClient::CreateNetworkContext",
       "path": "src/content/public/browser/content_browser_client.cc",
       "category": 1,
-      "component": "content/public"
+      "component": "content/public",
+      "in_degree": 0,
+      "out_degree": 40
     },
     {
       "id": "n178",
       "name": "content::ShellContentBrowserClient::CreateNetworkContext",
       "path": "src/content/shell/browser/shell_content_browser_client.cc",
       "category": 1,
-      "component": "content/shell"
+      "component": "content/shell",
+      "in_degree": 0,
+      "out_degree": 40
     },
     {
       "id": "n179",
       "name": "gcm::(anonymous namespace)::MCSProbe",
       "path": "src/google_apis/gcm/tools/mcs_probe.cc",
       "category": 0,
-      "component": "google_apis/gcm"
+      "component": "google_apis/gcm",
+      "in_degree": 0,
+      "out_degree": 40
     },
     {
       "id": "n180",
       "name": "headless::HeadlessRequestContextManager::CreateNetworkContext",
       "path": "src/headless/lib/browser/headless_request_context_manager.cc",
       "category": 1,
-      "component": "headless/lib"
+      "component": "headless/lib",
+      "in_degree": 0,
+      "out_degree": 30
     },
     {
       "id": "n181",
       "name": "network::TransitionalURLLoaderFactoryOwner",
       "path": "src/services/network/transitional_url_loader_factory_owner.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 40
     },
     {
       "id": "n182",
       "name": "weblayer::ContentBrowserClientImpl::CreateNetworkContext",
       "path": "src/weblayer/browser/content_browser_client_impl.cc",
       "category": 1,
-      "component": "weblayer/browser"
+      "component": "weblayer/browser",
+      "in_degree": 0,
+      "out_degree": 30
     },
     {
       "id": "n183",
       "name": "weblayer::SystemNetworkContextManager",
       "path": "src/weblayer/browser/system_network_context_manager.h",
       "category": 1,
-      "component": "weblayer/browser"
+      "component": "weblayer/browser",
+      "in_degree": 0,
+      "out_degree": 30
     },
     {
       "id": "n184",
       "name": "chromeos::smb_client::NetBiosClient",
       "path": "src/chrome/browser/chromeos/smb_client/discovery/netbios_client.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 2,
+      "out_degree": 1
     },
     {
       "id": "n185",
       "name": "mirroring::MockUdpSocket",
       "path": "src/components/mirroring/service/fake_network_service.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 26,
+      "out_degree": 24
     },
     {
       "id": "n186",
       "name": "media_router::NetworkServiceAsyncPacketSender",
       "path": "src/chrome/browser/media/router/providers/openscreen/network_service_async_packet_sender.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n187",
       "name": "openscreen::UdpSocket::Create",
       "path": "src/chrome/browser/media/router/providers/openscreen/platform/chrome_udp_socket.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n188",
       "name": "media_router::ChromeUdpSocket",
       "path": "src/chrome/browser/media/router/providers/openscreen/platform/chrome_udp_socket.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 2,
+      "out_degree": 1
     },
     {
       "id": "n189",
       "name": "cloud_print::PrivetTrafficDetector::Helper",
       "path": "src/chrome/browser/printing/cloud_print/privet_traffic_detector.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 6,
+      "out_degree": 3
     },
     {
       "id": "n190",
       "name": "mirroring::UdpSocketClient",
       "path": "src/components/mirroring/service/udp_socket_client.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 8,
+      "out_degree": 4
     },
     {
       "id": "n191",
       "name": "content::PepperUDPSocketMessageFilter",
       "path": "src/content/browser/renderer_host/pepper/pepper_udp_socket_message_filter.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 12,
+      "out_degree": 6
     },
     {
       "id": "n192",
       "name": "content::PepperUDPSocketMessageFilter",
       "path": "src/content/browser/renderer_host/pepper/pepper_udp_socket_message_filter.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 12,
+      "out_degree": 6
     },
     {
       "id": "n193",
       "name": "extensions::UDPSocket",
       "path": "src/extensions/browser/api/socket/udp_socket.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 6,
+      "out_degree": 3
     },
     {
       "id": "n194",
       "name": "CastRemotingConnector",
       "path": "src/chrome/browser/media/cast_remoting_connector.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 4
     },
     {
       "id": "n195",
       "name": "mirroring::MediaRemoter",
       "path": "src/components/mirroring/service/media_remoter.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n196",
       "name": "mirroring::CastMirroringServiceHost",
       "path": "src/chrome/browser/media/cast_mirroring_service_host.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 8
     },
     {
       "id": "n197",
       "name": "mirroring::MirroringService",
       "path": "src/components/mirroring/service/mirroring_service.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n198",
       "name": "mirroring::CastMirroringServiceHost",
       "path": "src/chrome/browser/media/cast_mirroring_service_host.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 8
     },
     {
       "id": "n199",
       "name": "mirroring::RemotingSender",
       "path": "src/components/mirroring/service/remoting_sender.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n200",
       "name": "network::UDPSocket",
       "path": "src/services/network/udp_socket.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 24
     },
     {
       "id": "n201",
       "name": "mirroring::SingleClientVideoCaptureHost",
       "path": "src/components/mirroring/browser/single_client_video_capture_host.h",
       "category": 1,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n202",
       "name": "mirroring::VideoCaptureClient",
       "path": "src/components/mirroring/service/video_capture_client.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n203",
       "name": "mirroring::FakeVideoCaptureHost",
       "path": "src/components/mirroring/service/fake_video_capture_host.h",
       "category": 0,
-      "component": "components/mirroring"
+      "component": "components/mirroring",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n204",
       "name": "NaClTrustedListener",
       "path": "src/components/nacl/loader/nacl_trusted_listener.h",
       "category": 0,
-      "component": "components/nacl"
+      "component": "components/nacl",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n205",
       "name": "nacl::TrustedPluginChannel",
       "path": "src/components/nacl/renderer/trusted_plugin_channel.h",
       "category": 2,
-      "component": "components/nacl"
+      "component": "components/nacl",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n206",
       "name": "network_hints::(anonymous namespace)::DnsLookupRequest",
       "path": "src/components/network_hints/browser/simple_network_hints_handler_impl.cc",
       "category": 1,
-      "component": "components/network_hints"
+      "component": "components/network_hints",
+      "in_degree": 6,
+      "out_degree": 0
     },
     {
       "id": "n207",
       "name": "network::ResolveHostRequest::Start",
       "path": "src/services/network/resolve_host_request.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 37
     },
     {
       "id": "n208",
       "name": "network::ResolveHostRequest",
       "path": "src/services/network/resolve_host_request.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 37
     },
     {
       "id": "n209",
       "name": "pdf::PDFWebContentsHelper",
       "path": "src/components/pdf/browser/pdf_web_contents_helper.h",
       "category": 1,
-      "component": "components/pdf"
+      "component": "components/pdf",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n210",
       "name": "pdf::PepperPDFHost",
       "path": "src/components/pdf/renderer/pepper_pdf_host.h",
       "category": 2,
-      "component": "components/pdf"
+      "component": "components/pdf",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n211",
       "name": "memory_instrumentation::CoordinatorImpl",
       "path": "src/services/resource_coordinator/memory_instrumentation/coordinator_impl.h",
       "category": 0,
-      "component": "services/resource_coordinator"
+      "component": "services/resource_coordinator",
+      "in_degree": 8,
+      "out_degree": 4
     },
     {
       "id": "n212",
       "name": "heap_profiling::(anonymous namespace)::ProfilingServiceImpl",
       "path": "src/components/services/heap_profiling/heap_profiling_service.cc",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n213",
       "name": "paint_preview::CreateCompositorCollection",
       "path": "src/components/paint_preview/browser/compositor_utils.cc",
       "category": 1,
-      "component": "components/paint_preview"
+      "component": "components/paint_preview",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n214",
       "name": "paint_preview::PaintPreviewCompositorCollectionImpl",
       "path": "src/components/services/paint_preview_compositor/paint_preview_compositor_collection_impl.h",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n215",
       "name": "paint_preview::PaintPreviewCompositorServiceImpl",
       "path": "src/components/paint_preview/browser/paint_preview_compositor_service_impl.h",
       "category": 1,
-      "component": "components/paint_preview"
+      "component": "components/paint_preview",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n216",
       "name": "paint_preview::PaintPreviewCompositorCollectionImpl",
       "path": "src/components/services/paint_preview_compositor/paint_preview_compositor_collection_impl.h",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n217",
       "name": "paint_preview::PaintPreviewCompositorClientImpl",
       "path": "src/components/paint_preview/browser/paint_preview_compositor_client_impl.h",
       "category": 1,
-      "component": "components/paint_preview"
+      "component": "components/paint_preview",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n218",
       "name": "paint_preview::PaintPreviewCompositorImpl",
       "path": "src/components/services/paint_preview_compositor/paint_preview_compositor_impl.h",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n219",
       "name": "patch::(anonymous namespace)::PatchParams",
       "path": "src/components/services/patch/public/cpp/patch.cc",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n220",
       "name": "patch::FilePatcherImpl",
       "path": "src/components/services/patch/file_patcher_impl.h",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n221",
       "name": "printing::PrintCompositeClient::CreateCompositeRequest",
       "path": "src/components/printing/browser/print_composite_client.cc",
       "category": 1,
-      "component": "components/printing"
+      "component": "components/printing",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n222",
       "name": "printing::PrintCompositorImpl",
       "path": "src/components/services/print_compositor/print_compositor_impl.h",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n223",
       "name": "download::BaseFile",
       "path": "src/components/download/public/common/base_file.h",
       "category": 0,
-      "component": "components/download"
+      "component": "components/download",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n224",
       "name": "quarantine::QuarantineImpl",
       "path": "src/components/services/quarantine/quarantine_impl.h",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n225",
       "name": "download::BaseFile",
       "path": "src/components/download/public/common/base_file.h",
       "category": 0,
-      "component": "components/download"
+      "component": "components/download",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n226",
       "name": "content::DOMStorageContextWrapper::Create",
       "path": "src/content/browser/dom_storage/dom_storage_context_wrapper.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n227",
       "name": "storage::LocalStorageImpl",
       "path": "src/components/services/storage/dom_storage/local_storage_impl.h",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n228",
       "name": "content::DOMStorageContextWrapper",
       "path": "src/content/browser/dom_storage/dom_storage_context_wrapper.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n229",
       "name": "unzip::UnzipperImpl::UnzipWithFilter",
       "path": "src/components/services/unzip/unzipper_impl.cc",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n230",
       "name": "unzip::(anonymous namespace)::UnzipFilter",
       "path": "src/components/services/unzip/public/cpp/unzip.cc",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n231",
       "name": "unzip::(anonymous namespace)::UnzipParams",
       "path": "src/components/services/unzip/public/cpp/unzip.cc",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n232",
       "name": "unzip::UnzipperImpl",
       "path": "src/components/services/unzip/unzipper_impl.h",
       "category": 0,
-      "component": "components/services"
+      "component": "components/services",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n233",
       "name": "android_webview::AwProxyingRestrictedCookieManagerListener",
       "path": "src/android_webview/browser/network_service/aw_proxying_restricted_cookie_manager.cc",
       "category": 1,
-      "component": "android_webview/browser"
+      "component": "android_webview/browser",
+      "in_degree": 0,
+      "out_degree": 5
     },
     {
       "id": "n234",
       "name": "GaiaCookieManagerService",
       "path": "src/components/signin/internal/identity_manager/gaia_cookie_manager_service.h",
       "category": 0,
-      "component": "components/signin"
+      "component": "components/signin",
+      "in_degree": 9,
+      "out_degree": 0
     },
     {
       "id": "n235",
       "name": "tracing::ConsumerHost::TracingSession",
       "path": "src/services/tracing/perfetto/consumer_host.h",
       "category": 0,
-      "component": "services/tracing"
+      "component": "services/tracing",
+      "in_degree": 32,
+      "out_degree": 32
     },
     {
       "id": "n236",
       "name": "ui_devtools::TracingAgent::PerfettoTracingSession",
       "path": "src/components/ui_devtools/tracing_agent.cc",
       "category": 0,
-      "component": "components/ui_devtools"
+      "component": "components/ui_devtools",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n237",
       "name": "visitedlink::VisitedLinkUpdater",
       "path": "src/components/visitedlink/browser/visitedlink_event_listener.cc",
       "category": 1,
-      "component": "components/visitedlink"
+      "component": "components/visitedlink",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n238",
       "name": "visitedlink::VisitedLinkReader",
       "path": "src/components/visitedlink/renderer/visitedlink_reader.h",
       "category": 2,
-      "component": "components/visitedlink"
+      "component": "components/visitedlink",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n239",
       "name": "viz::CompositorFrameSinkImpl",
       "path": "src/components/viz/service/frame_sinks/compositor_frame_sink_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 7,
+      "out_degree": 8
     },
     {
       "id": "n240",
       "name": "demo::DemoClient",
       "path": "src/components/viz/demo/client/demo_client.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 30,
+      "out_degree": 3
     },
     {
       "id": "n241",
       "name": "viz::RootCompositorFrameSinkImpl",
       "path": "src/components/viz/service/frame_sinks/root_compositor_frame_sink_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 132
     },
     {
       "id": "n242",
       "name": "viz::RootCompositorFrameSinkImpl",
       "path": "src/components/viz/service/frame_sinks/root_compositor_frame_sink_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 132
     },
     {
       "id": "n243",
       "name": "viz::RootCompositorFrameSinkImpl",
       "path": "src/components/viz/service/frame_sinks/root_compositor_frame_sink_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 132
     },
     {
       "id": "n244",
       "name": "viz::FrameSinkVideoCapturerImpl",
       "path": "src/components/viz/service/frame_sinks/video_capture/frame_sink_video_capturer_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n245",
       "name": "viz::ClientFrameSinkVideoCapturer",
       "path": "src/components/viz/host/client_frame_sink_video_capturer.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 5,
+      "out_degree": 4
     },
     {
       "id": "n246",
       "name": "content::LameWindowCapturerChromeOS",
       "path": "src/content/browser/media/capture/lame_window_capturer_chromeos.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n247",
       "name": "viz::GpuServiceImpl::InitializeWithHost",
       "path": "src/components/viz/service/gl/gpu_service_impl.cc",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 36
     },
     {
       "id": "n248",
       "name": "viz::GpuHostImpl",
       "path": "src/components/viz/host/gpu_host_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 24,
+      "out_degree": 192
     },
     {
       "id": "n249",
       "name": "viz::VizMainImpl::CreateGpuService",
       "path": "src/components/viz/service/main/viz_main_impl.cc",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 36
     },
     {
       "id": "n250",
       "name": "viz::GpuHostImpl",
       "path": "src/components/viz/host/gpu_host_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 24,
+      "out_degree": 192
     },
     {
       "id": "n251",
       "name": "viz::GpuHostImpl",
       "path": "src/components/viz/host/gpu_host_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 24,
+      "out_degree": 192
     },
     {
       "id": "n252",
       "name": "viz::RootCompositorFrameSinkImpl::Create",
       "path": "src/components/viz/service/frame_sinks/root_compositor_frame_sink_impl.cc",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 36
     },
     {
       "id": "n253",
       "name": "viz::HostDisplayClient",
       "path": "src/components/viz/host/host_display_client.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 120,
+      "out_degree": 0
     },
     {
       "id": "n254",
       "name": "viz::HostDisplayClient",
       "path": "src/components/viz/host/host_display_client.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 120,
+      "out_degree": 0
     },
     {
       "id": "n255",
       "name": "viz::HostDisplayClient",
       "path": "src/components/viz/host/host_display_client.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 120,
+      "out_degree": 0
     },
     {
       "id": "n256",
       "name": "viz::FrameSinkManagerImpl",
       "path": "src/components/viz/service/frame_sinks/frame_sink_manager_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n257",
       "name": "viz::HostFrameSinkManager",
       "path": "src/components/viz/host/host_frame_sink_manager.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n258",
       "name": "viz::(anonymous namespace)::SoftwareOutputDeviceWinProxy",
       "path": "src/components/viz/service/display_embedder/software_output_device_win.cc",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n259",
       "name": "viz::LayeredWindowUpdaterImpl",
       "path": "src/components/viz/host/layered_window_updater_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n260",
       "name": "cc::mojo_embedder::AsyncLayerTreeFrameSink",
       "path": "src/cc/mojo_embedder/async_layer_tree_frame_sink.h",
       "category": 0,
-      "component": "cc/mojo_embedder"
+      "component": "cc/mojo_embedder",
+      "in_degree": 40,
+      "out_degree": 4
     },
     {
       "id": "n261",
       "name": "viz::ClientFrameSinkVideoCapturer::Overlay",
       "path": "src/components/viz/host/client_frame_sink_video_capturer.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 5
     },
     {
       "id": "n262",
       "name": "viz::VideoCaptureOverlay",
       "path": "src/components/viz/service/frame_sinks/video_capture/video_capture_overlay.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n263",
       "name": "viz::GpuServiceImpl",
       "path": "src/components/viz/service/gl/gpu_service_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 144,
+      "out_degree": 0
     },
     {
       "id": "n264",
       "name": "viz::GpuServiceImpl",
       "path": "src/components/viz/service/gl/gpu_service_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 144,
+      "out_degree": 0
     },
     {
       "id": "n265",
       "name": "viz::GpuServiceImpl",
       "path": "src/components/viz/service/gl/gpu_service_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 144,
+      "out_degree": 0
     },
     {
       "id": "n266",
       "name": "viz::GpuServiceImpl",
       "path": "src/components/viz/service/gl/gpu_service_impl.h",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 144,
+      "out_degree": 0
     },
     {
       "id": "n267",
       "name": "android_webview::(anonymous namespace)::InterceptedRequest",
       "path": "src/android_webview/browser/network_service/aw_proxying_url_loader_factory.cc",
       "category": 1,
-      "component": "android_webview/browser"
+      "component": "android_webview/browser",
+      "in_degree": 72,
+      "out_degree": 48
     },
     {
       "id": "n268",
       "name": "android_webview::AndroidStreamReaderURLLoader",
       "path": "src/android_webview/browser/network_service/android_stream_reader_url_loader.h",
       "category": 1,
-      "component": "android_webview/browser"
+      "component": "android_webview/browser",
+      "in_degree": 0,
+      "out_degree": 29
     },
     {
       "id": "n269",
       "name": "chromeos::(anonymous namespace)::ExternalFileURLLoader",
       "path": "src/chrome/browser/chromeos/fileapi/external_file_url_loader_factory.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 23,
+      "out_degree": 29
     },
     {
       "id": "n270",
       "name": "(anonymous namespace)::ResourceBundleFileLoader",
       "path": "src/chrome/browser/extensions/chrome_url_request_util.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 69,
+      "out_degree": 87
     },
     {
       "id": "n271",
       "name": "offline_pages::OfflinePageURLLoader",
       "path": "src/chrome/browser/offline_pages/offline_page_url_loader.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 23,
+      "out_degree": 29
     },
     {
       "id": "n272",
       "name": "PluginResponseInterceptorURLLoaderThrottle::WillProcessResponse",
       "path": "src/chrome/browser/plugins/plugin_response_interceptor_url_loader_throttle.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 87
     },
     {
       "id": "n273",
       "name": "IsolatedPrerenderFromStringURLLoader",
       "path": "src/chrome/browser/prerender/isolated/isolated_prerender_from_string_url_loader.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 92,
+      "out_degree": 116
     },
     {
       "id": "n274",
       "name": "ash::AssistantAlarmTimerController",
       "path": "src/ash/assistant/assistant_alarm_timer_controller.h",
       "category": 0,
-      "component": "ash/assistant"
+      "component": "ash/assistant",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n275",
       "name": "ash::AssistantNotificationController",
       "path": "src/ash/assistant/assistant_notification_controller.h",
       "category": 0,
-      "component": "ash/assistant"
+      "component": "ash/assistant",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n276",
       "name": "ash::AssistantScreenContextController",
       "path": "src/ash/assistant/assistant_screen_context_controller.h",
       "category": 0,
-      "component": "ash/assistant"
+      "component": "ash/assistant",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n277",
       "name": "ash::LockScreenMediaControlsView",
       "path": "src/ash/login/ui/lock_screen_media_controls_view.h",
       "category": 0,
-      "component": "ash/login"
+      "component": "ash/login",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n278",
       "name": "ash::MediaControllerImpl",
       "path": "src/ash/media/media_controller_impl.h",
       "category": 0,
-      "component": "ash/media"
+      "component": "ash/media",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n279",
       "name": "ash::MediaNotificationControllerImpl",
       "path": "src/ash/media/media_notification_controller_impl.h",
       "category": 0,
-      "component": "ash/media"
+      "component": "ash/media",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n280",
       "name": "chromeos::multidevice_setup::AccountStatusChangeDelegateNotifier",
       "path": "src/chromeos/services/multidevice_setup/account_status_change_delegate_notifier.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n281",
       "name": "ash::MultiDeviceNotificationPresenter",
       "path": "src/ash/multi_device_setup/multi_device_notification_presenter.h",
       "category": 0,
-      "component": "ash/multi_device_setup"
+      "component": "ash/multi_device_setup",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n282",
       "name": "chromeos::multidevice_setup::AccountStatusChangeDelegateNotifierImpl",
       "path": "src/chromeos/services/multidevice_setup/account_status_change_delegate_notifier_impl.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n283",
       "name": "chromeos::multidevice_setup::FakeMultiDeviceSetup",
       "path": "src/chromeos/services/multidevice_setup/public/cpp/fake_multidevice_setup.h",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n284",
       "name": "device::BluetoothSystem",
       "path": "src/services/device/bluetooth/bluetooth_system.h",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n285",
       "name": "ash::TrayBluetoothHelperExperimental",
       "path": "src/ash/system/bluetooth/tray_bluetooth_helper_experimental.h",
       "category": 0,
-      "component": "ash/system"
+      "component": "ash/system",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n286",
       "name": "viz::VideoDetector::AddObserver",
       "path": "src/components/viz/service/frame_sinks/video_detector.cc",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n287",
       "name": "ash::VideoDetector",
       "path": "src/ash/wm/video_detector.h",
       "category": 0,
-      "component": "ash/wm"
+      "component": "ash/wm",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n288",
       "name": "content::PresentationServiceImpl",
       "path": "src/content/browser/presentation/presentation_service_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n289",
       "path": "src/base/optional.h",
       "category": 0,
-      "component": "base/optional.h"
+      "component": "base/optional.h",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n290",
       "name": "content::MojoAudioOutputIPC",
       "path": "src/content/renderer/media/audio/mojo_audio_output_ipc.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 8,
+      "out_degree": 24
     },
     {
       "id": "n291",
       "name": "audio::OutputDevice",
       "path": "src/services/audio/public/cpp/output_device.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n292",
       "name": "vr::BrowserXRRuntime",
       "path": "src/chrome/browser/vr/service/browser_xr_runtime.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 11
     },
     {
       "id": "n293",
       "name": "device::ArCoreGl",
       "path": "src/chrome/browser/android/vr/arcore_device/arcore_gl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n294",
       "name": "vr::VRServiceImpl::OnInlineSessionCreated",
       "path": "src/chrome/browser/vr/service/vr_service_impl.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n295",
       "name": "apps::AppServiceImpl::RegisterPublisher",
       "path": "src/chrome/services/app_service/app_service_impl.cc",
       "category": 0,
-      "component": "chrome/services"
+      "component": "chrome/services",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n296",
       "name": "apps::ArcApps",
       "path": "src/chrome/browser/apps/app_service/arc_apps.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n297",
       "name": "apps::BuiltInChromeOsApps",
       "path": "src/chrome/browser/apps/app_service/built_in_chromeos_apps.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n298",
       "name": "apps::BuiltInChromeOsApps",
       "path": "src/chrome/browser/apps/app_service/built_in_chromeos_apps.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n299",
       "name": "apps::CrostiniApps",
       "path": "src/chrome/browser/apps/app_service/crostini_apps.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n300",
       "name": "apps::ExtensionApps",
       "path": "src/chrome/browser/apps/app_service/extension_apps.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n301",
       "name": "apps::WebApps",
       "path": "src/chrome/browser/apps/app_service/web_apps.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n302",
       "name": "chrome_apps::api::(anonymous namespace)::BlobMediaDataSource",
       "path": "src/chrome/browser/apps/platform_apps/api/media_galleries/blob_data_source_factory.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n303",
       "name": "chromeos::android_sms::AndroidSmsPairingStateTrackerImpl",
       "path": "src/chrome/browser/chromeos/android_sms/android_sms_pairing_state_tracker_impl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n304",
       "name": "chromeos::(anonymous namespace)::ProxyLookupRequest",
       "path": "src/chrome/browser/chromeos/dbus/proxy_resolution_service_provider.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n305",
       "name": "network::ProxyLookupRequest",
       "path": "src/services/network/proxy_lookup_request.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n306",
       "name": "chromeos::NativeInputMethodEngine::ImeObserver",
       "path": "src/chrome/browser/chromeos/input_method/native_input_method_engine.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 2,
+      "out_degree": 1
     },
     {
       "id": "n307",
       "name": "chromeos::ime::(anonymous namespace)::ClientDelegate",
       "path": "src/chromeos/services/ime/decoder/decoder_engine.cc",
       "category": 0,
-      "component": "chromeos/services"
+      "component": "chromeos/services",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n308",
       "name": "ash::TrayAction",
       "path": "src/ash/tray_action/tray_action.h",
       "category": 0,
-      "component": "ash/tray_action"
+      "component": "ash/tray_action",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n309",
       "name": "lock_screen_apps::StateController",
       "path": "src/chrome/browser/chromeos/lock_screen_apps/state_controller.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n310",
       "name": "chromeos::ScreenLocker",
       "path": "src/chrome/browser/chromeos/login/lock/screen_locker.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n311",
       "name": "chromeos::power::ml::IdleEventNotifier",
       "path": "src/chrome/browser/chromeos/power/ml/idle_event_notifier.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n312",
       "name": "chromeos::power::ml::UserActivityManager",
       "path": "src/chrome/browser/chromeos/power/ml/user_activity_manager.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n313",
       "name": "(anonymous namespace)::PortForwardingHostResolver",
       "path": "src/chrome/browser/devtools/device/port_forwarding_controller.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 9,
+      "out_degree": 0
     },
     {
       "id": "n314",
       "name": "(anonymous namespace)::ResolveHostAndOpenSocket",
       "path": "src/chrome/browser/devtools/device/tcp_device_provider.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 9,
+      "out_degree": 0
     },
     {
       "id": "n315",
       "name": "extensions::CookiesEventRouter",
       "path": "src/chrome/browser/extensions/api/cookies/cookies_api.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n316",
       "name": "image_writer::ImageWriterHandler",
       "path": "src/chrome/utility/image_writer/image_writer_handler.h",
       "category": 0,
-      "component": "chrome/utility"
+      "component": "chrome/utility",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n317",
       "name": "extensions::image_writer::ImageWriterUtilityClient::RemovableStorageWriterClientImpl",
       "path": "src/chrome/browser/extensions/api/image_writer_private/image_writer_utility_client.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n318",
       "name": "content::ChildThreadImpl::Init",
       "path": "src/content/child/child_thread_impl.cc",
       "category": 0,
-      "component": "content/child"
+      "component": "content/child",
+      "in_degree": 0,
+      "out_degree": 100
     },
     {
       "id": "n319",
       "name": "content::BrowserChildProcessHostImpl",
       "path": "src/content/browser/browser_child_process_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n320",
       "name": "content::BrowserChildProcessHostImpl",
       "path": "src/content/browser/browser_child_process_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n321",
       "name": "content::BrowserChildProcessHostImpl",
       "path": "src/content/browser/browser_child_process_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n322",
       "name": "storage::(anonymous namespace)::ReaderDelegate",
       "path": "src/storage/browser/blob/blob_impl.cc",
       "category": 1,
-      "component": "storage/browser"
+      "component": "storage/browser",
+      "in_degree": 0,
+      "out_degree": 7
     },
     {
       "id": "n323",
       "name": "content::CacheStorageBlobToDiskCache",
       "path": "src/content/browser/cache_storage/cache_storage_blob_to_disk_cache.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n324",
       "name": "content::CookieStoreManager",
       "path": "src/content/browser/cookie_store/cookie_store_manager.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 18,
+      "out_degree": 0
     },
     {
       "id": "n325",
       "name": "content::CookieStoreManager",
       "path": "src/content/browser/cookie_store/cookie_store_manager.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 18,
+      "out_degree": 0
     },
     {
       "id": "n326",
       "name": "content::FakeEmbeddedWorkerInstanceClient::StartWorker",
       "path": "src/content/browser/service_worker/fake_embedded_worker_instance_client.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n327",
       "name": "content::DevToolsRendererChannel",
       "path": "src/content/browser/devtools/devtools_renderer_channel.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n328",
       "name": "media_router::MediaRouterAndroid::PresentationConnectionProxy",
       "path": "src/chrome/browser/media/android/router/media_router_android.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 2,
+      "out_degree": 2
     },
     {
       "id": "n329",
       "name": "media_router::BrowserPresentationConnectionProxy",
       "path": "src/chrome/browser/media/router/presentation/browser_presentation_connection_proxy.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 8
     },
     {
       "id": "n330",
       "name": "CastRemotingConnector::RemotingBridge",
       "path": "src/chrome/browser/media/cast_remoting_connector.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n331",
       "name": "media::remoting::FakeRemoter",
       "path": "src/media/remoting/fake_remoter.h",
       "category": 0,
-      "component": "media/remoting"
+      "component": "media/remoting",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n332",
       "name": "MediaHistoryContentsObserver",
       "path": "src/chrome/browser/media/history/media_history_contents_observer.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 6,
+      "out_degree": 0
     },
     {
       "id": "n333",
       "name": "content::MediaSessionImpl::AddObserver",
       "path": "src/content/browser/media/session/media_session_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 9
     },
     {
       "id": "n334",
       "name": "media_router::CastSessionClientImpl",
       "path": "src/chrome/browser/media/router/providers/cast/cast_session_client.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 6,
+      "out_degree": 6
     },
     {
       "id": "n335",
       "name": "CastMediaNotificationProvider::OnRoutesUpdated",
       "path": "src/chrome/browser/ui/global_media_controls/cast_media_notification_provider.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n336",
       "name": "CastMediaSessionController",
       "path": "src/chrome/browser/ui/global_media_controls/cast_media_session_controller.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n337",
       "name": "media_router::MediaRouterDesktop::InitializeExtensionMediaRouteProviderProxy",
       "path": "src/chrome/browser/media/router/mojo/media_router_desktop.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n338",
       "name": "media_router::CastMediaRouteProvider",
       "path": "src/chrome/browser/media/router/providers/cast/cast_media_route_provider.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n339",
       "name": "media_router::MediaRouterDesktop::RegisterMediaRouteProvider",
       "path": "src/chrome/browser/media/router/mojo/media_router_desktop.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n340",
       "name": "media_router::MediaRouterMojoImpl::RegisterMediaRouteProvider",
       "path": "src/chrome/browser/media/router/mojo/media_router_mojo_impl.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n341",
       "name": "media_router::ExtensionMediaRouteProviderProxy",
       "path": "src/chrome/browser/media/router/providers/extension/extension_media_route_provider_proxy.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 12
     },
     {
       "id": "n342",
       "name": "media_router::MirroringActivityRecord",
       "path": "src/chrome/browser/media/router/providers/cast/mirroring_activity_record.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 6,
+      "out_degree": 3
     },
     {
       "id": "n343",
       "name": "media_router::DialMediaRouteProvider",
       "path": "src/chrome/browser/media/router/providers/dial/dial_media_route_provider.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n344",
       "name": "media_router::WiredDisplayMediaRouteProvider",
       "path": "src/chrome/browser/media/router/providers/wired_display/wired_display_media_route_provider.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n345",
       "name": "chrome::WebRtcLoggingAgentImpl",
       "path": "src/chrome/renderer/media/webrtc_logging_agent_impl.h",
       "category": 2,
-      "component": "chrome/renderer"
+      "component": "chrome/renderer",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n346",
       "name": "WebRtcLoggingController",
       "path": "src/chrome/browser/media/webrtc/webrtc_logging_controller.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n347",
       "name": "WebRtcLoggingController",
       "path": "src/chrome/browser/media/webrtc/webrtc_logging_controller.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n348",
       "name": "chrome_browser_net::DnsProbeRunner",
       "path": "src/chrome/browser/net/dns_probe_runner.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 4
     },
     {
       "id": "n349",
       "name": "predictors::ProxyLookupClientImpl",
       "path": "src/chrome/browser/predictors/proxy_lookup_client_impl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n350",
       "name": "predictors::ResolveHostClientImpl",
       "path": "src/chrome/browser/predictors/resolve_host_client_impl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n351",
       "name": "printing::(anonymous namespace)::PdfToEmfConverterClientImpl",
       "path": "src/chrome/browser/printing/pdf_to_emf_converter.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n352",
       "name": "content::protocol::TracingHandler::PerfettoTracingSession",
       "path": "src/content/browser/devtools/protocol/tracing_handler.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n353",
       "name": "content::PepperWebPluginImpl",
       "path": "src/content/renderer/pepper/pepper_webplugin_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n354",
       "name": "content::ClipboardHostImpl",
       "path": "src/content/browser/frame_host/clipboard_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n355",
       "name": "content::RenderFrameHostImpl::JavaInterfaceProvider",
       "path": "src/content/browser/frame_host/render_frame_host_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 11,
+      "out_degree": 0
     },
     {
       "id": "n356",
       "name": "blink::BrowserInterfaceBrokerProxy",
       "path": "src/third_party/blink/public/common/browser_interface_broker_proxy.h",
       "category": 0,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 0,
+      "out_degree": 44
     },
     {
       "id": "n357",
       "name": "content::RenderFrameHostImpl::DroppedInterfaceRequestLogger",
       "path": "src/content/browser/frame_host/render_frame_host_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n358",
       "name": "content::RenderFrameHostImpl",
       "path": "src/content/browser/frame_host/render_frame_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 102,
+      "out_degree": 64
     },
     {
       "id": "n359",
       "name": "content::RenderFrameHostImpl",
       "path": "src/content/browser/frame_host/render_frame_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 102,
+      "out_degree": 64
     },
     {
       "id": "n360",
       "name": "content::NavigationURLLoaderImpl::URLLoaderRequestController",
       "path": "src/content/browser/loader/navigation_url_loader_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 388,
+      "out_degree": 0
     },
     {
       "id": "n361",
       "name": "content::NavigationURLLoaderImpl::URLLoaderRequestController",
       "path": "src/content/browser/loader/navigation_url_loader_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 388,
+      "out_degree": 0
     },
     {
       "id": "n362",
       "name": "network::NetworkContext",
       "path": "src/services/network/network_context.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 285,
+      "out_degree": 108
     },
     {
       "id": "n363",
       "name": "network::NetworkContext",
       "path": "src/services/network/network_context.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 285,
+      "out_degree": 108
     },
     {
       "id": "n364",
       "name": "ProfileNetworkContextService::CreateNetworkContextParams",
       "path": "src/chrome/browser/net/profile_network_context_service.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n365",
       "name": "network::NetworkServiceProxyDelegate",
       "path": "src/services/network/network_service_proxy_delegate.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n366",
       "name": "content::P2PSocketDispatcherHost",
       "path": "src/content/browser/renderer_host/p2p/socket_dispatcher_host.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n367",
       "name": "headless::HeadlessProxyConfigMonitor",
       "path": "src/headless/lib/browser/headless_request_context_manager.cc",
       "category": 1,
-      "component": "headless/lib"
+      "component": "headless/lib",
+      "in_degree": 3,
+      "out_degree": 3
     },
     {
       "id": "n368",
       "name": "network::ProxyConfigServiceMojo",
       "path": "src/services/network/proxy_config_service_mojo.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 3,
+      "out_degree": 3
     },
     {
       "id": "n369",
       "name": "proxy_resolver::ProxyResolverFactoryImpl::Job",
       "path": "src/services/proxy_resolver/proxy_resolver_factory_impl.cc",
       "category": 0,
-      "component": "services/proxy_resolver"
+      "component": "services/proxy_resolver",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n370",
       "name": "network::ProxyResolverFactoryMojo::Job",
       "path": "src/services/network/proxy_resolver_factory_mojo.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n371",
       "name": "proxy_resolver::ProxyResolverImpl::Job",
       "path": "src/services/proxy_resolver/proxy_resolver_impl.cc",
       "category": 0,
-      "component": "services/proxy_resolver"
+      "component": "services/proxy_resolver",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n372",
       "name": "network::(anonymous namespace)::ProxyResolverMojo::Job",
       "path": "src/services/network/proxy_resolver_factory_mojo.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n373",
       "name": "network::NetworkChangeManager::RequestNotifications",
       "path": "src/services/network/network_change_manager.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n374",
       "name": "network::NetworkConnectionTracker",
       "path": "src/services/network/public/cpp/network_connection_tracker.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n375",
       "name": "network::NetworkQualityEstimatorManager::RequestNotifications",
       "path": "src/services/network/network_quality_estimator_manager.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n376",
       "name": "network::NetworkQualityTracker",
       "path": "src/services/network/public/cpp/network_quality_tracker.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n377",
       "name": "DumpMessages",
       "path": "src/mojo/public/tools/fuzzers/mojo_fuzzer_message_dump.cc",
       "category": 0,
-      "component": "mojo/public"
+      "component": "mojo/public",
+      "in_degree": 0,
+      "out_degree": 2
     },
     {
       "id": "n378",
       "name": "FuzzImpl",
       "path": "src/mojo/public/tools/fuzzers/fuzz_impl.h",
       "category": 0,
-      "component": "mojo/public"
+      "component": "mojo/public",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n379",
       "name": "audio::DebugRecordingSession",
       "path": "src/services/audio/public/cpp/debug_recording_session.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n380",
       "name": "audio::DebugRecording",
       "path": "src/services/audio/debug_recording.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n381",
       "name": "content::MojoAudioInputIPC",
       "path": "src/content/renderer/media/audio/mojo_audio_input_ipc.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 24,
+      "out_degree": 12
     },
     {
       "id": "n382",
       "name": "audio::InputIPC",
       "path": "src/services/audio/public/cpp/input_ipc.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 12,
+      "out_degree": 16
     },
     {
       "id": "n383",
       "name": "audio::OutputStream",
       "path": "src/services/audio/output_stream.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n384",
       "name": "audio::DebugRecordingSession::DebugRecordingFileProvider",
       "path": "src/services/audio/public/cpp/debug_recording_session.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n385",
       "name": "content::ForwardingAudioStreamFactory::Core",
       "path": "src/content/browser/media/forwarding_audio_stream_factory.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n386",
       "name": "audio::FakeStreamFactory",
       "path": "src/services/audio/public/cpp/fake_stream_factory.h",
       "category": 0,
-      "component": "services/audio"
+      "component": "services/audio",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n387",
       "name": "network::SSLConfigServiceMojo",
       "path": "src/services/network/ssl_config_service_mojo.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n388",
       "name": "ash::SearchResultAnswerCardView::AnswerCardResultView",
       "path": "src/ash/app_list/views/search_result_answer_card_view.cc",
       "category": 0,
-      "component": "ash/app_list"
+      "component": "ash/app_list",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n389",
       "name": "content::NavigableContentsFactoryImpl",
       "path": "src/services/content/navigable_contents_factory_impl.h",
       "category": 0,
-      "component": "services/content"
+      "component": "services/content",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n390",
       "name": "content::NavigableContents",
       "path": "src/services/content/public/cpp/navigable_contents.h",
       "category": 0,
-      "component": "services/content"
+      "component": "services/content",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n391",
       "name": "content::NavigableContentsImpl",
       "path": "src/services/content/navigable_contents_impl.h",
       "category": 0,
-      "component": "services/content"
+      "component": "services/content",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n392",
       "name": "data_decoder::SafeWebBundleParser",
       "path": "src/services/data_decoder/public/cpp/safe_web_bundle_parser.h",
       "category": 0,
-      "component": "services/data_decoder"
+      "component": "services/data_decoder",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n393",
       "name": "data_decoder::WebBundleParser",
       "path": "src/services/data_decoder/web_bundle_parser.h",
       "category": 0,
-      "component": "services/data_decoder"
+      "component": "services/data_decoder",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n394",
       "name": "(anonymous namespace)::SSLConfigServiceManagerPref::AddToNetworkContextParams",
       "path": "src/chrome/browser/ssl/ssl_config_service_manager_pref.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n395",
       "name": "data_decoder::WebBundleParser::SharedBundleDataSource",
       "path": "src/services/data_decoder/web_bundle_parser.h",
       "category": 0,
-      "component": "services/data_decoder"
+      "component": "services/data_decoder",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n396",
       "name": "data_decoder::(anonymous namespace)::FileDataSource",
       "path": "src/services/data_decoder/web_bundle_parser_factory.cc",
       "category": 0,
-      "component": "services/data_decoder"
+      "component": "services/data_decoder",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n397",
       "name": "autofill::risk::(anonymous namespace)::FingerprintDataLoader",
       "path": "src/components/autofill/content/browser/risk/fingerprint.cc",
       "category": 1,
-      "component": "components/autofill"
+      "component": "components/autofill",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n398",
       "name": "device::GeolocationImpl",
       "path": "src/services/device/geolocation/geolocation_impl.h",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n399",
       "name": "language::GeoLanguageProvider",
       "path": "src/components/language/content/browser/geo_language_provider.h",
       "category": 1,
-      "component": "components/language"
+      "component": "components/language",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n400",
       "name": "GeolocationPermissionContext",
       "path": "src/chrome/browser/geolocation/geolocation_permission_context.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n401",
       "name": "device::GeolocationProviderImpl",
       "path": "src/services/device/geolocation/geolocation_provider_impl.h",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n402",
       "name": "device::FidoHidDevice",
       "path": "src/device/fido/hid/fido_hid_device.h",
       "category": 0,
-      "component": "device/fido"
+      "component": "device/fido",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n403",
       "name": "device::HidConnectionImpl",
       "path": "src/services/device/hid/hid_connection_impl.h",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 9,
+      "out_degree": 0
     },
     {
       "id": "n404",
       "name": "device::NintendoController",
       "path": "src/device/gamepad/nintendo_controller.h",
       "category": 0,
-      "component": "device/gamepad"
+      "component": "device/gamepad",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n405",
       "name": "extensions::HidConnectionResource",
       "path": "src/extensions/browser/api/hid/hid_connection_resource.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n406",
       "name": "device::PowerMonitorBroadcastSource::Client",
       "path": "src/services/device/public/cpp/power_monitor/power_monitor_broadcast_source.h",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n407",
       "name": "extensions::SerialConnection",
       "path": "src/extensions/browser/api/serial/serial_connection.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 3,
+      "out_degree": 3
     },
     {
       "id": "n408",
       "name": "device::SerialPortImpl",
       "path": "src/services/device/serial/serial_port_impl.h",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 3,
+      "out_degree": 3
     },
     {
       "id": "n409",
       "name": "ProfileImpl",
       "path": "src/chrome/browser/profiles/profile_impl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n410",
       "name": "identity::IdentityService",
       "path": "src/services/identity/identity_service.h",
       "category": 0,
-      "component": "services/identity"
+      "component": "services/identity",
+      "in_degree": 36,
+      "out_degree": 0
     },
     {
       "id": "n411",
       "name": "ProfileImpl",
       "path": "src/chrome/browser/profiles/profile_impl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n412",
       "name": "content::NetworkContextClientBase::OnCertificateRequested",
       "path": "src/content/browser/network_context_client_base_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n413",
       "name": "content::NetworkContextClientBase::OnAuthRequired",
       "path": "src/content/browser/network_context_client_base_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n414",
       "name": "content::(anonymous namespace)::OnAuthRequiredContinuationForWindowId",
       "path": "src/content/browser/storage_partition_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n415",
       "name": "ProfileImpl",
       "path": "src/chrome/browser/profiles/profile_impl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n416",
       "name": "AccessibilityLabelsService",
       "path": "src/chrome/browser/accessibility/accessibility_labels_service.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n417",
       "name": "image_annotation::ImageAnnotationService",
       "path": "src/services/image_annotation/image_annotation_service.h",
       "category": 0,
-      "component": "services/image_annotation"
+      "component": "services/image_annotation",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n418",
       "name": "content::(anonymous namespace)::AudioFocusDelegateDefault",
       "path": "src/content/browser/media/session/audio_focus_delegate_default.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n419",
       "name": "media_session::AudioFocusRequest",
       "path": "src/services/media_session/audio_focus_request.h",
       "category": 0,
-      "component": "services/media_session"
+      "component": "services/media_session",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n420",
       "name": "media_session::MediaController",
       "path": "src/services/media_session/media_controller.h",
       "category": 0,
-      "component": "services/media_session"
+      "component": "services/media_session",
+      "in_degree": 6,
+      "out_degree": 0
     },
     {
       "id": "n421",
       "name": "content::(anonymous namespace)::SSLClientAuthDelegate",
       "path": "src/content/browser/storage_partition_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n422",
       "name": "content::(anonymous namespace)::LoginHandlerDelegate",
       "path": "src/content/browser/storage_partition_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n423",
       "name": "content::(anonymous namespace)::OnCertificateRequestedContinuation",
       "path": "src/content/browser/storage_partition_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n424",
       "name": "content::(anonymous namespace)::OnAuthRequiredContinuation",
       "path": "src/content/browser/storage_partition_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n425",
       "name": "network::MojoHostResolverImpl::Job",
       "path": "src/services/network/mojo_host_resolver_impl.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n426",
       "name": "proxy_resolver::HostResolverMojo::RequestImpl",
       "path": "src/services/proxy_resolver/host_resolver_mojo.cc",
       "category": 0,
-      "component": "services/proxy_resolver"
+      "component": "services/proxy_resolver",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n427",
       "name": "network::(anonymous namespace)::DoMyIpAddressOnWorker",
       "path": "src/services/network/proxy_resolver_factory_mojo.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n428",
       "name": "network::ProxyResolverFactoryMojo",
       "path": "src/services/network/proxy_resolver_factory_mojo.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n429",
       "name": "proxy_resolver::ProxyResolverFactoryImpl",
       "path": "src/services/proxy_resolver/proxy_resolver_factory_impl.h",
       "category": 0,
-      "component": "services/proxy_resolver"
+      "component": "services/proxy_resolver",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n430",
       "name": "content::GetMemoryInstrumentationCoordinatorController::(anonymous class)::operator Call",
       "path": "src/content/browser/resource_coordinator_service.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n431",
       "name": "memory_instrumentation::CoordinatorImpl::RegisterClientProcess",
       "path": "src/services/resource_coordinator/memory_instrumentation/coordinator_impl.cc",
       "category": 0,
-      "component": "services/resource_coordinator"
+      "component": "services/resource_coordinator",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n432",
       "name": "memory_instrumentation::ClientProcessImpl",
       "path": "src/services/resource_coordinator/public/cpp/memory_instrumentation/client_process_impl.h",
       "category": 0,
-      "component": "services/resource_coordinator"
+      "component": "services/resource_coordinator",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n433",
       "name": "service_manager::ServiceInstance",
       "path": "src/services/service_manager/service_instance.h",
       "category": 0,
-      "component": "services/service_manager"
+      "component": "services/service_manager",
+      "in_degree": 12,
+      "out_degree": 4
     },
     {
       "id": "n434",
       "name": "service_manager::ServiceBinding",
       "path": "src/services/service_manager/public/cpp/service_binding.h",
       "category": 0,
-      "component": "services/service_manager"
+      "component": "services/service_manager",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n435",
       "name": "content::BrowserContext::Initialize",
       "path": "src/content/browser/browser_context.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n436",
       "name": "content::ServiceManagerContext::InProcessServiceManagerContext::StartOnServiceManagerThread",
       "path": "src/content/browser/service_manager/service_manager_context.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n437",
       "name": "service_manager::ServiceBinding::CreatePackagedServiceInstance::(anonymous class)::operator Call",
       "path": "src/services/service_manager/public/cpp/service_binding.cc",
       "category": 0,
-      "component": "services/service_manager"
+      "component": "services/service_manager",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n438",
       "name": "content::PerfettoTracingSession",
       "path": "src/content/browser/tracing/background_tracing_active_scenario.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n439",
       "name": "content::PerfettoFileTracer",
       "path": "src/content/browser/tracing/perfetto_file_tracer.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n440",
       "name": "content::TracingControllerImpl",
       "path": "src/content/browser/tracing/tracing_controller_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 8,
+      "out_degree": 8
     },
     {
       "id": "n441",
       "name": "content::TracingControllerImpl",
       "path": "src/content/browser/tracing/tracing_controller_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 8,
+      "out_degree": 8
     },
     {
       "id": "n442",
       "name": "tracing::TracedProcessImpl",
       "path": "src/services/tracing/public/cpp/traced_process_impl.h",
       "category": 0,
-      "component": "services/tracing"
+      "component": "services/tracing",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n443",
       "name": "tracing::TracingService::AddClient",
       "path": "src/services/tracing/tracing_service.cc",
       "category": 0,
-      "component": "services/tracing"
+      "component": "services/tracing",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n444",
       "name": "content::TracingServiceController",
       "path": "src/content/browser/tracing/tracing_service_controller.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n445",
       "name": "tracing::TracingService",
       "path": "src/services/tracing/tracing_service.h",
       "category": 0,
-      "component": "services/tracing"
+      "component": "services/tracing",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n446",
       "name": "video_capture::PushVideoStreamSubscriptionImpl",
       "path": "src/services/video_capture/push_video_stream_subscription_impl.h",
       "category": 0,
-      "component": "services/video_capture"
+      "component": "services/video_capture",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n447",
       "name": "content::ServiceLaunchedVideoCaptureDevice",
       "path": "src/content/browser/renderer_host/media/service_launched_video_capture_device.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n448",
       "name": "content::ServiceVideoCaptureDeviceLauncher::LaunchDeviceAsync",
       "path": "src/content/browser/renderer_host/media/service_video_capture_device_launcher.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n449",
       "name": "video_capture::BroadcastingReceiver::ClientContext",
       "path": "src/services/video_capture/broadcasting_receiver.h",
       "category": 0,
-      "component": "services/video_capture"
+      "component": "services/video_capture",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n450",
       "name": "video_capture::VideoSourceImpl",
       "path": "src/services/video_capture/video_source_impl.h",
       "category": 0,
-      "component": "services/video_capture"
+      "component": "services/video_capture",
+      "in_degree": 20,
+      "out_degree": 0
     },
     {
       "id": "n451",
       "name": "video_capture::DeviceMediaToMojoAdapter::Start",
       "path": "src/services/video_capture/device_media_to_mojo_adapter.cc",
       "category": 0,
-      "component": "services/video_capture"
+      "component": "services/video_capture",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n452",
       "name": "video_capture::ReceiverMojoToMediaAdapter",
       "path": "src/services/video_capture/receiver_mojo_to_media_adapter.h",
       "category": 0,
-      "component": "services/video_capture"
+      "component": "services/video_capture",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n453",
       "name": "video_capture::SharedMemoryVirtualDeviceMojoAdapter",
       "path": "src/services/video_capture/shared_memory_virtual_device_mojo_adapter.h",
       "category": 0,
-      "component": "services/video_capture"
+      "component": "services/video_capture",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n454",
       "name": "video_capture::TextureVirtualDeviceMojoAdapter",
       "path": "src/services/video_capture/texture_virtual_device_mojo_adapter.h",
       "category": 0,
-      "component": "services/video_capture"
+      "component": "services/video_capture",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n455",
       "name": "(anonymous namespace)::ResolveHostAndOpenSocket::(ctor)",
       "path": "src/chrome/browser/devtools/device/tcp_device_provider.cc",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n456",
       "name": "network::HostResolver",
       "path": "src/services/network/host_resolver.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 10,
+      "out_degree": 0
     },
     {
       "id": "n457",
       "name": "extensions::SocketExtensionWithDnsLookupFunction",
       "path": "src/extensions/browser/api/socket/socket_api.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 9,
+      "out_degree": 3
     },
     {
       "id": "n458",
       "name": "network::MdnsResponder",
       "path": "src/services/network/mdns_responder.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n459",
       "name": "network::NetworkContext",
       "path": "src/services/network/network_context.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 285,
+      "out_degree": 108
     },
     {
       "id": "n460",
       "name": "content::DedicatedWorkerHost",
       "path": "src/content/browser/worker_host/dedicated_worker_host.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 24
     },
     {
       "id": "n461",
       "name": "content::DedicatedWorkerHostFactoryClient",
       "path": "src/content/renderer/worker/dedicated_worker_host_factory_client.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 20,
+      "out_degree": 16
     },
     {
       "id": "n462",
       "name": "content::DedicatedWorkerHost",
       "path": "src/content/browser/worker_host/dedicated_worker_host.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 24
     },
     {
       "id": "n463",
       "name": "content::RenderFrameMetadataProviderImpl",
       "path": "src/content/browser/renderer_host/render_frame_metadata_provider_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 32,
+      "out_degree": 32
     },
     {
       "id": "n464",
       "name": "content::RenderFrameMetadataObserverImpl",
       "path": "src/content/renderer/render_frame_metadata_observer_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 32,
+      "out_degree": 32
     },
     {
       "id": "n465",
       "name": "content::SharedWorkerHost",
       "path": "src/content/browser/worker_host/shared_worker_host.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 8,
+      "out_degree": 12
     },
     {
       "id": "n466",
       "name": "content::MockSharedWorkerFactory",
       "path": "src/content/browser/worker_host/mock_shared_worker.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n467",
       "name": "content::RenderFrameMetadataProviderImpl",
       "path": "src/content/browser/renderer_host/render_frame_metadata_provider_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 32,
+      "out_degree": 32
     },
     {
       "id": "n468",
       "name": "content::MockSharedWorker",
       "path": "src/content/browser/worker_host/mock_shared_worker.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 5,
+      "out_degree": 0
     },
     {
       "id": "n469",
       "name": "content::SharedWorkerConnectorImpl::Connect",
       "path": "src/content/browser/worker_host/shared_worker_connector_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n470",
       "name": "content::MockSharedWorkerClient",
       "path": "src/content/browser/worker_host/mock_shared_worker.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n471",
       "name": "content::SharedWorkerHost::AddClient",
       "path": "src/content/browser/worker_host/shared_worker_host.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n472",
       "name": "content::SharedWorkerHost::ClientInfo",
       "path": "src/content/browser/worker_host/shared_worker_host.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n473",
       "name": "content::RenderFrameMetadataObserverImpl",
       "path": "src/content/renderer/render_frame_metadata_observer_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 32,
+      "out_degree": 32
     },
     {
       "id": "n474",
       "name": "content::SharedWorkerServiceImpl::ScriptLoadFailed",
       "path": "src/content/browser/worker_host/shared_worker_service_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n475",
       "name": "content::EmbeddedSharedWorkerStub",
       "path": "src/content/renderer/worker/embedded_shared_worker_stub.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 5,
+      "out_degree": 4
     },
     {
       "id": "n476",
       "name": "content::RenderThreadImpl",
       "path": "src/content/renderer/render_thread_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 12,
+      "out_degree": 8
     },
     {
       "id": "n477",
       "name": "content::WorkerScriptFetcher",
       "path": "src/content/browser/worker_host/worker_script_fetcher.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 0
     },
     {
       "id": "n478",
       "name": "viz::CompositingModeReporterImpl::AddCompositingModeWatcher",
       "path": "src/components/viz/host/compositing_mode_reporter_impl.cc",
       "category": 0,
-      "component": "components/viz"
+      "component": "components/viz",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n479",
       "name": "content::RenderThreadImpl",
       "path": "src/content/renderer/render_thread_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 12,
+      "out_degree": 8
     },
     {
       "id": "n480",
       "name": "content::RenderWidgetHostImpl::SetWidget",
       "path": "src/content/browser/renderer_host/render_widget_host_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n481",
       "name": "content::RenderWidget",
       "path": "src/content/renderer/render_widget.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n482",
       "name": "content::RenderWidget",
       "path": "src/content/renderer/render_widget.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n483",
       "name": "content::EmbeddedWorkerInstance",
       "path": "src/content/browser/service_worker/embedded_worker_instance.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n484",
       "name": "content::EmbeddedWorkerInstanceClientImpl",
       "path": "src/content/renderer/service_worker/embedded_worker_instance_client_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n485",
       "name": "blink::FetchEvent",
       "path": "src/third_party/blink/renderer/modules/service_worker/fetch_event.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n486",
       "name": "blink::PerformanceResourceTiming",
       "path": "src/third_party/blink/renderer/core/timing/performance_resource_timing.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n487",
       "name": "blink::MediaStreamVideoCapturerSource",
       "path": "src/third_party/blink/renderer/modules/mediastream/media_stream_video_capturer_source.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n488",
       "name": "blink::MockMojoMediaStreamDispatcherHost",
       "path": "src/third_party/blink/renderer/modules/mediastream/mock_mojo_media_stream_dispatcher_host.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n489",
       "name": "content::ServiceWorkerProviderHost",
       "path": "src/content/browser/service_worker/service_worker_provider_host.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n490",
       "name": "content::ServiceWorkerSingleScriptUpdateChecker",
       "path": "src/content/browser/service_worker/service_worker_single_script_update_checker.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 0
     },
     {
       "id": "n491",
       "name": "blink::UserMediaProcessor",
       "path": "src/third_party/blink/renderer/modules/mediastream/user_media_processor.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n492",
       "name": "blink::PresentationConnection",
       "path": "src/third_party/blink/renderer/modules/presentation/presentation_connection.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 8,
+      "out_degree": 8
     },
     {
       "id": "n493",
       "name": "blink::RemotePlayback",
       "path": "src/third_party/blink/renderer/modules/remoteplayback/remote_playback.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 8,
+      "out_degree": 8
     },
     {
       "id": "n494",
       "name": "blink::CanvasResourceDispatcher",
       "path": "src/third_party/blink/renderer/platform/graphics/canvas_resource_dispatcher.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n495",
       "name": "blink::SurfaceLayerBridge",
       "path": "src/third_party/blink/renderer/platform/graphics/surface_layer_bridge.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n496",
       "name": "content::ServiceWorkerFetchContextImpl",
       "path": "src/content/renderer/service_worker/service_worker_fetch_context_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 21,
+      "out_degree": 0
     },
     {
       "id": "n497",
       "name": "blink::VideoFrameSubmitter",
       "path": "src/third_party/blink/renderer/platform/graphics/video_frame_submitter.h",
       "category": 2,
-      "component": "third_party/blink"
+      "component": "third_party/blink",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n498",
       "name": "ui::UserActivityPowerManagerNotifier",
       "path": "src/ui/chromeos/user_activity_power_manager_notifier.h",
       "category": 0,
-      "component": "ui/chromeos"
+      "component": "ui/chromeos",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n499",
       "name": "content::FakeServiceWorker::DispatchFetchEventForMainResource",
       "path": "src/content/browser/service_worker/fake_service_worker.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 8
     },
     {
       "id": "n500",
       "name": "content::(anonymous namespace)::DedicatedWorkerHostFactoryImpl::CreateWorkerHostAndStartScriptLoad",
       "path": "src/content/browser/worker_host/dedicated_worker_host.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n501",
       "name": "content::PrefetchURLLoaderService",
       "path": "src/content/browser/loader/prefetch_url_loader_service.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n502",
       "name": "content::AudioInputStreamBroker",
       "path": "src/content/browser/media/audio_input_stream_broker.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 8,
+      "out_degree": 4
     },
     {
       "id": "n503",
       "name": "content::AudioLoopbackStreamBroker",
       "path": "src/content/browser/media/audio_loopback_stream_broker.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 8,
+      "out_degree": 4
     },
     {
       "id": "n504",
       "name": "content::LameCaptureOverlayChromeOS",
       "path": "src/content/browser/media/capture/lame_capture_overlay_chromeos.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n505",
       "name": "content::HardwareKeyMediaController",
       "path": "src/content/browser/media/hardware_key_media_controller.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 6,
+      "out_degree": 0
     },
     {
       "id": "n506",
       "name": "device::GvrDevice",
       "path": "src/device/vr/android/gvr/gvr_device.h",
       "category": 0,
-      "component": "device/vr"
+      "component": "device/vr",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n507",
       "name": "device::OpenVRDevice",
       "path": "src/device/vr/openvr/openvr_device.h",
       "category": 0,
-      "component": "device/vr"
+      "component": "device/vr",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n508",
       "name": "vr::VRUiHostImpl",
       "path": "src/chrome/browser/vr/ui_host/vr_ui_host_impl.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n509",
       "name": "ThumbnailMediaParser",
       "path": "src/chrome/browser/thumbnail/generator/android/thumbnail_media_parser.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n510",
       "name": "content::MediaInterfaceProxy",
       "path": "src/content/browser/media/media_interface_proxy.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 82,
+      "out_degree": 0
     },
     {
       "id": "n511",
       "name": "content::MediaInterfaceFactoryHolder",
       "path": "src/content/browser/media/media_interface_factory_holder.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n512",
       "name": "content::VideoDecoderProxy",
       "path": "src/content/browser/media/video_decoder_proxy.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 32
     },
     {
       "id": "n513",
       "name": "device::OpenXrDevice",
       "path": "src/device/vr/openxr/openxr_device.h",
       "category": 0,
-      "component": "device/vr"
+      "component": "device/vr",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n514",
       "name": "device::SensorImpl",
       "path": "src/services/device/generic_sensor/sensor_impl.h",
       "category": 0,
-      "component": "services/device"
+      "component": "services/device",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n515",
       "name": "device::VROrientationDevice",
       "path": "src/device/vr/orientation/orientation_device.h",
       "category": 0,
-      "component": "device/vr"
+      "component": "device/vr",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n516",
       "name": "device::VROrientationSession",
       "path": "src/device/vr/orientation/orientation_session.h",
       "category": 0,
-      "component": "device/vr"
+      "component": "device/vr",
+      "in_degree": 7,
+      "out_degree": 0
     },
     {
       "id": "n517",
       "name": "device::VRDeviceBase",
       "path": "src/device/vr/vr_device_base.h",
       "category": 0,
-      "component": "device/vr"
+      "component": "device/vr",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n518",
       "name": "content::VideoDecoderProxy",
       "path": "src/content/browser/media/video_decoder_proxy.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 32
     },
     {
       "id": "n519",
       "name": "content::RenderProcessHostImpl",
       "path": "src/content/browser/renderer_host/render_process_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 16
     },
     {
       "id": "n520",
       "name": "content::ChildThreadImpl::IOThreadState",
       "path": "src/content/child/child_thread_impl.cc",
       "category": 0,
-      "component": "content/child"
+      "component": "content/child",
+      "in_degree": 68,
+      "out_degree": 0
     },
     {
       "id": "n521",
       "name": "vr::VRBrowserRendererThreadWin",
       "path": "src/chrome/browser/vr/win/vr_browser_renderer_thread_win.h",
       "category": 1,
-      "component": "chrome/browser"
+      "component": "chrome/browser",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n522",
       "name": "device::XRCompositorCommon",
       "path": "src/device/vr/windows/compositor_base.h",
       "category": 0,
-      "component": "device/vr"
+      "component": "device/vr",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n523",
       "name": "device::MixedRealityDevice",
       "path": "src/device/vr/windows_mixed_reality/mixed_reality_device.h",
       "category": 0,
-      "component": "device/vr"
+      "component": "device/vr",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n524",
       "name": "extensions::DnsResolveFunction",
       "path": "src/extensions/browser/api/dns/dns_api.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 9,
+      "out_degree": 0
     },
     {
       "id": "n525",
       "name": "content::GpuVideoAcceleratorFactoriesImpl",
       "path": "src/content/renderer/media/gpu/gpu_video_accelerator_factories_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n526",
       "name": "content::RenderProcessHostImpl",
       "path": "src/content/browser/renderer_host/render_process_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 16
     },
     {
       "id": "n527",
       "name": "content::MediaInterfaceFactory",
       "path": "src/content/renderer/media/media_interface_factory.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 0,
+      "out_degree": 32
     },
     {
       "id": "n528",
       "name": "content::RenderProcessHostImpl",
       "path": "src/content/browser/renderer_host/render_process_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 16
     },
     {
       "id": "n529",
       "name": "content::MediaInterfaceFactory",
       "path": "src/content/renderer/media/media_interface_factory.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 0,
+      "out_degree": 32
     },
     {
       "id": "n530",
       "name": "content::RenderProcessHostImpl",
       "path": "src/content/browser/renderer_host/render_process_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 16
     },
     {
       "id": "n531",
       "name": "content::MediaInterfaceProxy",
       "path": "src/content/browser/media/media_interface_proxy.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 82,
+      "out_degree": 0
     },
     {
       "id": "n532",
       "name": "content::ChildProcessHostImpl",
       "path": "src/content/common/child_process_host_impl.h",
       "category": 0,
-      "component": "content/common"
+      "component": "content/common",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n533",
       "name": "media::MojoCdmHelper",
       "path": "src/media/mojo/services/mojo_cdm_helper.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 0,
+      "out_degree": 9
     },
     {
       "id": "n534",
       "name": "content::FrameServiceBase",
       "path": "src/content/public/browser/frame_service_base.h",
       "category": 1,
-      "component": "content/public"
+      "component": "content/public",
+      "in_degree": 10,
+      "out_degree": 0
     },
     {
       "id": "n535",
       "name": "media::MojoMediaDrmStorage",
       "path": "src/media/mojo/services/mojo_media_drm_storage.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n536",
       "name": "content::RenderAccessibilityImpl",
       "path": "src/content/renderer/accessibility/render_accessibility_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n537",
       "name": "content::SynchronousLayerTreeFrameSink",
       "path": "src/content/renderer/android/synchronous_layer_tree_frame_sink.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 10,
+      "out_degree": 0
     },
     {
       "id": "n538",
       "name": "content::FrameInputHandlerImpl",
       "path": "src/content/renderer/input/frame_input_handler_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 32,
+      "out_degree": 0
     },
     {
       "id": "n539",
       "name": "content::FrameInputHandlerImpl",
       "path": "src/content/renderer/input/frame_input_handler_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 32,
+      "out_degree": 0
     },
     {
       "id": "n540",
       "name": "content::MediaInternalsAudioFocusHelper",
       "path": "src/content/browser/media/media_internals_audio_focus_helper.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 7,
+      "out_degree": 0
     },
     {
       "id": "n541",
       "name": "content::MediaSessionAndroid",
       "path": "src/content/browser/media/session/media_session_android.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 2,
+      "out_degree": 0
     },
     {
       "id": "n542",
       "name": "content::MediaSessionServiceImpl",
       "path": "src/content/browser/media/session/media_session_service_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n543",
       "name": "content::MockMediaSessionClient",
       "path": "src/content/browser/media/session/mock_media_session_service_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n544",
       "name": "content::SystemMediaControlsNotifier",
       "path": "src/content/browser/media/system_media_controls_notifier.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 20,
+      "out_degree": 0
     },
     {
       "id": "n545",
       "name": "content::RenderFrameHostImpl::SetRenderFrameCreated",
       "path": "src/content/browser/frame_host/render_frame_host_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n546",
       "name": "content::InputTargetClientImpl",
       "path": "src/content/renderer/input/input_target_client_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 20,
+      "out_degree": 0
     },
     {
       "id": "n547",
       "name": "content::RenderWidgetHostImpl",
       "path": "src/content/browser/renderer_host/render_widget_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n548",
       "name": "content::RenderWidgetHostImpl",
       "path": "src/content/browser/renderer_host/render_widget_host_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n549",
       "name": "content::SystemMediaControlsNotifier",
       "path": "src/content/browser/media/system_media_controls_notifier.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 20,
+      "out_degree": 0
     },
     {
       "id": "n550",
       "name": "content::WidgetInputHandlerImpl",
       "path": "src/content/renderer/input/widget_input_handler_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n551",
       "name": "network::NetworkService",
       "path": "src/services/network/network_service.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 64
     },
     {
       "id": "n552",
       "name": "content::NetworkServiceClient",
       "path": "src/content/browser/network_service_client.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 128,
+      "out_degree": 0
     },
     {
       "id": "n553",
       "name": "network::NetworkService",
       "path": "src/services/network/network_service.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 64
     },
     {
       "id": "n554",
       "name": "network::NetworkService",
       "path": "src/services/network/network_service.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 64
     },
     {
       "id": "n555",
       "name": "network::WebSocket",
       "path": "src/services/network/websocket.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 12
     },
     {
       "id": "n556",
       "name": "network::URLLoaderFactory",
       "path": "src/services/network/url_loader_factory.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n557",
       "name": "extensions::WebRequestProxyingURLLoaderFactory",
       "path": "src/extensions/browser/api/web_request/web_request_proxying_url_loader_factory.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n558",
       "name": "extensions::WebRequestProxyingWebSocket",
       "path": "src/extensions/browser/api/web_request/web_request_proxying_websocket.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 18,
+      "out_degree": 3
     },
     {
       "id": "n559",
       "name": "network::NetworkService",
       "path": "src/services/network/network_service.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 64
     },
     {
       "id": "n560",
       "name": "network::WebSocketFactory::CreateWebSocket",
       "path": "src/services/network/websocket_factory.cc",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 3
     },
     {
       "id": "n561",
       "name": "BlobReader",
       "path": "src/extensions/browser/blob_reader.h",
       "category": 1,
-      "component": "extensions/browser"
+      "component": "extensions/browser",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n562",
       "name": "network::ProxyResolvingSocketMojo",
       "path": "src/services/network/proxy_resolving_socket_mojo.h",
       "category": 3,
-      "component": "services/network"
+      "component": "services/network",
+      "in_degree": 0,
+      "out_degree": 16
     },
     {
       "id": "n563",
       "name": "jingle_glue::NetworkServiceAsyncSocket",
       "path": "src/jingle/glue/network_service_async_socket.h",
       "category": 0,
-      "component": "jingle/glue"
+      "component": "jingle/glue",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n564",
       "name": "media::unittest_internal::MockCameraModule",
       "path": "src/media/capture/video/chromeos/mock_camera_module.h",
       "category": 0,
-      "component": "media/capture"
+      "component": "media/capture",
+      "in_degree": 1,
+      "out_degree": 1
     },
     {
       "id": "n565",
       "name": "media::CameraHalDelegate",
       "path": "src/media/capture/video/chromeos/camera_hal_delegate.h",
       "category": 0,
-      "component": "media/capture"
+      "component": "media/capture",
+      "in_degree": 1,
+      "out_degree": 1
     },
     {
       "id": "n566",
       "name": "media::VendorTagOpsDelegate",
       "path": "src/media/capture/video/chromeos/vendor_tag_ops_delegate.h",
       "category": 0,
-      "component": "media/capture"
+      "component": "media/capture",
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "n567",
       "name": "media::unittest_internal::MockVendorTagOps",
       "path": "src/media/capture/video/chromeos/mock_vendor_tag_ops.h",
       "category": 0,
-      "component": "media/capture"
+      "component": "media/capture",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n568",
       "name": "content::NetworkServiceClient",
       "path": "src/content/browser/network_service_client.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 128,
+      "out_degree": 0
     },
     {
       "id": "n569",
       "name": "media::MojoDemuxerStreamAdapter",
       "path": "src/media/mojo/services/mojo_demuxer_stream_adapter.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n570",
       "name": "media::MojoDemuxerStreamImpl",
       "path": "src/media/mojo/clients/mojo_demuxer_stream_impl.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n571",
       "name": "media::MojoVideoEncodeAcceleratorService",
       "path": "src/media/mojo/services/mojo_video_encode_accelerator_service.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n572",
       "name": "media::(anonymous namespace)::VideoEncodeAcceleratorClient",
       "path": "src/media/mojo/clients/mojo_video_encode_accelerator.cc",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n573",
       "name": "media::CdmService",
       "path": "src/media/mojo/services/cdm_service.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n574",
       "name": "media::MediaInterfaceProvider",
       "path": "src/media/mojo/services/media_interface_provider.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 47,
+      "out_degree": 0
     },
     {
       "id": "n575",
       "name": "content::ShellContentBrowserClient::RunSecondaryMediaService",
       "path": "src/content/shell/browser/shell_content_browser_client.cc",
       "category": 1,
-      "component": "content/shell"
+      "component": "content/shell",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n576",
       "name": "media::MediaService",
       "path": "src/media/mojo/services/media_service.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n577",
       "name": "media::MojoAudioOutputStream",
       "path": "src/media/mojo/services/mojo_audio_output_stream.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n578",
       "name": "media::MojoAudioOutputStreamProvider",
       "path": "src/media/mojo/services/mojo_audio_output_stream_provider.h",
       "category": 0,
-      "component": "media/mojo"
+      "component": "media/mojo",
+      "in_degree": 4,
+      "out_degree": 4
     },
     {
       "id": "n579",
       "name": "content::FakeServiceWorker::DispatchCanMakePaymentEvent",
       "path": "src/content/browser/service_worker/fake_service_worker.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n580",
       "name": "content::(anonymous namespace)::RespondWithCallbacks",
       "path": "src/content/browser/payments/payment_app_provider_impl.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 12,
+      "out_degree": 0
     },
     {
       "id": "n581",
       "name": "media::remoting::FakeRemotingDataStreamSender",
       "path": "src/media/remoting/fake_remoter.h",
       "category": 0,
-      "component": "media/remoting"
+      "component": "media/remoting",
+      "in_degree": 3,
+      "out_degree": 0
     },
     {
       "id": "n582",
       "name": "content::FakeServiceWorker::DispatchPaymentRequestEvent",
       "path": "src/content/browser/service_worker/fake_service_worker.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n583",
       "name": "content::FakeServiceWorker::DispatchAbortPaymentEvent",
       "path": "src/content/browser/service_worker/fake_service_worker.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n584",
       "name": "content::FrameSinkProviderImpl",
       "path": "src/content/browser/renderer_host/frame_sink_provider_impl.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n585",
       "name": "content::MediaDevicesManager::AudioServiceDeviceListener",
       "path": "src/content/browser/renderer_host/media/media_devices_manager.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 1,
+      "out_degree": 0
     },
     {
       "id": "n586",
       "name": "content::RenderFrameImpl",
       "path": "src/content/renderer/render_frame_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 32,
+      "out_degree": 8
     },
     {
       "id": "n587",
       "name": "content::RenderFrameAudioInputStreamFactory::Core",
       "path": "src/content/browser/renderer_host/media/render_frame_audio_input_stream_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 16,
+      "out_degree": 0
     },
     {
       "id": "n588",
       "name": "content::RenderFrameImpl",
       "path": "src/content/renderer/render_frame_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 32,
+      "out_degree": 8
     },
     {
       "id": "n589",
       "name": "content::RenderFrameAudioOutputStreamFactory::Core::ProviderImpl",
       "path": "src/content/browser/renderer_host/media/render_frame_audio_output_stream_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n590",
       "name": "content::PepperHostResolverMessageFilter",
       "path": "src/content/browser/renderer_host/pepper/pepper_host_resolver_message_filter.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 9,
+      "out_degree": 0
     },
     {
       "id": "n591",
       "name": "content::PepperProxyLookupHelper::UIThreadHelper",
       "path": "src/content/browser/renderer_host/pepper/pepper_proxy_lookup_helper.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 6,
+      "out_degree": 0
     },
     {
       "id": "n592",
       "name": "content::PepperTCPSocketMessageFilter",
       "path": "src/content/browser/renderer_host/pepper/pepper_tcp_socket_message_filter.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 24,
+      "out_degree": 0
     },
     {
       "id": "n593",
       "name": "content::PepperTCPSocketMessageFilter",
       "path": "src/content/browser/renderer_host/pepper/pepper_tcp_socket_message_filter.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 24,
+      "out_degree": 0
     },
     {
       "id": "n594",
       "name": "content::(anonymous namespace)::MockParser",
       "path": "src/content/browser/web_package/mock_web_bundle_reader_factory.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n595",
       "name": "content::SignedExchangePrefetchHandler",
       "path": "src/content/browser/web_package/signed_exchange_prefetch_handler.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 194,
+      "out_degree": 0
     },
     {
       "id": "n596",
       "name": "content::ResolveProxyMsgHelper",
       "path": "src/content/browser/resolve_proxy_msg_helper.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 8,
+      "out_degree": 0
     },
     {
       "id": "n597",
       "name": "content::FakeEmbeddedWorkerInstanceClient",
       "path": "src/content/browser/service_worker/fake_embedded_worker_instance_client.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n598",
       "name": "content::ServiceWorkerVersion",
       "path": "src/content/browser/service_worker/service_worker_version.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n599",
       "name": "content::FakeServiceWorker",
       "path": "src/content/browser/service_worker/fake_service_worker.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     },
     {
       "id": "n600",
       "name": "content::WebWorkerFetchContextImpl",
       "path": "src/content/renderer/loader/web_worker_fetch_context_impl.h",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 25,
+      "out_degree": 0
     },
     {
       "id": "n601",
       "name": "content::ServiceWorkerProviderContext::RegisterWorkerClient",
       "path": "src/content/renderer/service_worker/service_worker_provider_context.cc",
       "category": 2,
-      "component": "content/renderer"
+      "component": "content/renderer",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n602",
       "name": "content::AudioInputStreamHandle",
       "path": "src/content/browser/renderer_host/media/audio_input_stream_handle.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n603",
       "name": "content::AudioOutputStreamBroker",
       "path": "src/content/browser/media/audio_output_stream_broker.h",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 0,
+      "out_degree": 4
     },
     {
       "id": "n604",
       "name": "content::ServiceWorkerFetchDispatcher::ResponseCallback",
       "path": "src/content/browser/service_worker/service_worker_fetch_dispatcher.cc",
       "category": 1,
-      "component": "content/browser"
+      "component": "content/browser",
+      "in_degree": 4,
+      "out_degree": 0
     }
   ],
   "edges": [

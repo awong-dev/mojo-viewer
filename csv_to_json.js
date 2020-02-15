@@ -96,6 +96,8 @@ async function main() {
       path: node.path,
       category: getCategory(node.path),
       component: node.path.split('/').splice(1,2).join('/'),
+      in_degree: node.in_edges.length,
+      out_degree: node.out_edges.length,
     });
 
     node.out_edges.forEach(e => {
