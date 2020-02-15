@@ -3,7 +3,26 @@ import * as d3 from 'd3'
 
 const VIEWBOX_WIDTH = 4096;
 const VIEWBOX_HEIGHT = 2048;
-const NODE_RADIUS = 15;
+const MIN_NODE_RADIUS = 15;
+const NODE_RADIUS_SCALE = 1.5;
+
+function calcRadius(n) {
+  return Math.sqrt(n.in_degree) * NODE_RADIUS_SCALE + MIN_NODE_RADIUS;
+}
+
+const TEST_GRAPH = {
+  nodes: [
+    {id:"a", name: "a", in_degree: 29, category: 1},
+    {id:"b", name: "b", in_degree: 3, category: 2},
+    {id:"c", name: "c", in_degree: 5, category: 0},
+    {id:"d", name: "d", in_degree: 150, category: 1}
+  ],
+  edges: [
+    {source:"a", target: "b", label: "n"},
+    {source:"a", target: "c", label: "m"},
+    {source:"b", target: "c", label: "o"}
+  ]
+};
 
 class Digraph extends React.Component {
   constructor(props) {
@@ -14,80 +33,86 @@ class Digraph extends React.Component {
 
   updateGraph() {
     const graphRoot = d3.select(this.graphRef.current);
-    const testGraph = {
-      nodes: [
-        {id:"a"},
-        {id:"b"},
-        {id:"c"},
-        {id:"d"}
-      ],
-      links: [
-        {source:"a", target: "b"},
-        {source:"a", target: "c"},
-        {source:"b", target: "c"}
-      ]
-    };
+    //const graphData = TEST_GRAPH;
     const graphData = this.props.graphData;
-    console.log(graphData);
 
-    // Generate the base elements in the svg for links and nodes.
-    const link = graphRoot.append("g")
-      .attr("class", "links")
-      .selectAll("line")
-      .data(graphData.edges)
-      .enter().append("line")
-      .attr("stroke-width", d => 5 );
+    // Generate the base elements in the svg for edges and nodes.
+    const edge = graphRoot.select(".edges").selectAll("line")
+      .data(graphData.edges).enter()
+      .append("line")
+      .attr("stroke-width", d => 10 );
 
-    const node = graphRoot.append("g")
-      .attr("class", "nodes")
-      .selectAll("g")
+    edge.exit().remove();
+
+    const node = graphRoot.select(".nodes").selectAll("g")
       .data(graphData.nodes)
       .enter().append("g");
+    node.exit().remove();
 
-    // Draw the circles around the nodes.
+    // Draw the circles representing the nodes. They are also the drag
+    // locations.
+    const categories = [...new Set(graphData.nodes.map(n => n.category))];
+    const in_degrees = graphData.nodes.map(n => n.in_degree).sort();
+    const category_color = d3.scaleOrdinal().domain(categories).range(d3.schemeCategory10);
     const circles = node.append("circle")
-        .attr("r", NODE_RADIUS)
+        .attr("r", n => calcRadius(n))
+        .attr("fill", n => category_color(n.category))
         .call(d3.drag()
-        .on("start", d => {
-          if (!d3.event.active)
-            this.simulation.alphaTarget(0.3).restart();
-          d.fx = d.x;
-          d.fy = d.y;
-        })
-        .on("drag", d => {
-          d.fx = d3.event.x;
-          d.fy = d3.event.y;
-        })
-        .on("end", d => {
-          if (!d3.event.active)
-            this.simulation.alphaTarget(0);
-          d.fx = null;
-          d.fy = null;
-        }));
+          .on("start", d => {
+            if (!d3.event.active)
+              this.simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+          })
+          .on("drag", d => {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+          })
+          .on("end", d => {
+            if (!d3.event.active)
+              this.simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+          }));
 
     // Put labels on the node too, slightly offset.
     const labels = node.append("text")
         .text(d => d.name)
-        .attr('x', 6)
-        .attr('y', 3);
+        .attr('x', n => calcRadius(n) + 6)
+        .attr('y', n => calcRadius(n) + 3);
 
     node.append("title")
       .text(d=> d.name);
 
     const ticked = () => {
-      link
-        .attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+      edge
+        .attr("x1", e => e.source.x)
+        .attr("y1", e => e.source.y)
+        .attr("x2", e => e.target.x)
+        .attr("y2", e => e.target.y);
 
       node
-        .attr("transform", d => {
-          const new_x = Math.max(NODE_RADIUS, Math.min(d.x, VIEWBOX_WIDTH - NODE_RADIUS));
-          const new_y = Math.max(NODE_RADIUS, Math.min(d.y, VIEWBOX_WIDTH - NODE_RADIUS));
+        .attr("transform", n => {
+          const radius = calcRadius(n);
+          const new_x = Math.max(MIN_NODE_RADIUS, Math.min(n.x, VIEWBOX_WIDTH - radius));
+          const new_y = Math.max(MIN_NODE_RADIUS, Math.min(n.y, VIEWBOX_HEIGHT - radius));
           return "translate(" + new_x + "," + new_y + ")";
         });
     };
+
+    const bandScale = d3.scaleBand()
+      .domain(categories)
+      .range([0, VIEWBOX_WIDTH])
+      .paddingOuter(.1);
+    const vertialSpread = d3.scalePow()
+      .domain([in_degrees[0], in_degrees.slice(-1)[0]])
+      .range([400, VIEWBOX_HEIGHT - 400])
+    this.simulation = d3.forceSimulation()
+      .force("link", d3.forceLink().id(n => n.id))
+      .force("charge", d3.forceManyBody().strength(n => -(calcRadius(n) * 6)))
+      .force("center", d3.forceCenter(VIEWBOX_WIDTH / 2, VIEWBOX_HEIGHT / 2))
+      .force("y", d3.forceY().y(n => vertialSpread(n.in_degree)).strength(1))
+      .force("x", d3.forceX().x(n => bandScale(n.category)).strength(1));
 
     this.simulation
         .nodes(graphData.nodes)
@@ -98,11 +123,10 @@ class Digraph extends React.Component {
   }
 
   componentDidMount() {
-    this.simulation = d3.forceSimulation()
-      .force("link", d3.forceLink().id(d => d.id))
-      .force("collide", d3.forceCollide(11))
-      .force("charge", d3.forceManyBody(-4))
-      .force("center", d3.forceCenter(VIEWBOX_WIDTH / 2, VIEWBOX_HEIGHT / 2));
+    // Create the initial 2 SVG groups for edges and nodes.
+    const graphRoot = d3.select(this.graphRef.current);
+    graphRoot.append("g").attr("class", "edges");
+    graphRoot.append("g").attr("class", "nodes");
   }
 
   componentDidUpdate() {
