@@ -127,7 +127,7 @@ class Digraph extends React.Component {
     view.append("g").attr("class", "nodes");
 
     const zoomed = () => {
-      graphRoot.select('.view').attr("transform", d3.event.transform);
+      view.attr("transform", d3.event.transform);
     };
 
     const zoom = d3.zoom()
