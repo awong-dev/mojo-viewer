@@ -22,8 +22,7 @@ $mdc-theme-secondary: #005daa;
 }
 
 .card {
-  width: 100%;
-  margin: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
   padding: 0px 5px 0px 5px;
 }
 
@@ -54,13 +53,12 @@ $mdc-theme-secondary: #005daa;
   overflow: scroll;
 }
 
-.column {
-  height: 100%;
-  width: 50%;
-}
-
 .details {
   margin-right: 1.5rem;
+}
+
+.main-graph {
+  border: 1px dashed black;
 }
 
 .main-graph .edges line {
@@ -68,10 +66,4 @@ $mdc-theme-secondary: #005daa;
   stroke-opacity: 0.8;
   display: inline-block;
   left: 0;
-}
-
-.view {
-  fill: "pink";
-  opacity: 100%;
-  stroke: #000;
 }

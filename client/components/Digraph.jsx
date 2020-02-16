@@ -122,8 +122,7 @@ class Digraph extends React.Component {
   componentDidMount() {
     // Create the initial 2 SVG groups for edges and nodes.
     const graphRoot = d3.select(this.graphRef.current);
-    const view = graphRoot.append("g")
-      .attr("class", "view");
+    const view = graphRoot.append("g");
     view.append("g").attr("class", "edges");
     view.append("g").attr("class", "nodes");
 
@@ -144,7 +143,7 @@ class Digraph extends React.Component {
 
   render() {
     return (
-      <Card>
+      <Card title="Shows mojo connections. Nodes are classes. Edges are mojom interfaces.">
         <svg preserveAspectRatio="xMinYMin meet" viewBox={`0 0 ${VIEWBOX_WIDTH} ${VIEWBOX_HEIGHT}`} className="main-graph" ref={this.graphRef} />
       </Card>
     );

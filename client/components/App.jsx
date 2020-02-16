@@ -33,12 +33,7 @@ class App extends React.Component {
             <Control data={this.state.graph} />
           </div>
         </header>
-        <div>
-          <section className="title-details">
-          Shows mojo connections. Nodes are classes. Edges are mojom interfaces.
-          </section>
-          <Digraph graphData={this.state.graph} />
-        </div>
+        <Digraph graphData={this.state.graph} />
       </main>
     );
   }
