@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Card'
 import * as d3 from 'd3'
 
 const VIEWBOX_WIDTH = 4096;
@@ -103,12 +104,12 @@ class Digraph extends React.Component {
     const bandScale = d3.scaleBand()
       .domain(categories)
       .range([0, VIEWBOX_WIDTH])
-      .paddingOuter(.1);
+      .paddingOuter(.2);
     this.simulation = d3.forceSimulation()
       .force("x", d3.forceX().x(n => bandScale(n.category)).strength(1))
       .force("charge", d3.forceManyBody().strength(n => -(calcRadius(n) * 2)))
-      .force("link", d3.forceLink().id(n => n.id).strength(l => 1 / (l.source.in_degree + l.target.in_degree)))
-      .force("center", d3.forceCenter(VIEWBOX_WIDTH / 2, VIEWBOX_HEIGHT / 2));
+      .force("link", d3.forceLink().id(n => n.id).strength(l => 0.2 / (l.source.in_degree + l.target.in_degree)))
+      ;
 
     this.simulation
         .nodes(graphData.nodes)
@@ -121,8 +122,20 @@ class Digraph extends React.Component {
   componentDidMount() {
     // Create the initial 2 SVG groups for edges and nodes.
     const graphRoot = d3.select(this.graphRef.current);
-    graphRoot.append("g").attr("class", "edges");
-    graphRoot.append("g").attr("class", "nodes");
+    const view = graphRoot.append("g")
+      .attr("class", "view");
+    view.append("g").attr("class", "edges");
+    view.append("g").attr("class", "nodes");
+
+    const zoomed = () => {
+      graphRoot.select('.view').attr("transform", d3.event.transform);
+    };
+
+    const zoom = d3.zoom()
+      .scaleExtent([1, 40])
+      .translateExtent([[-100, -100], [VIEWBOX_WIDTH + 90, VIEWBOX_HEIGHT + 100]])
+      .on("zoom", zoomed);
+    graphRoot.call(zoom);
   }
 
   componentDidUpdate() {
@@ -131,7 +144,9 @@ class Digraph extends React.Component {
 
   render() {
     return (
-      <svg preserveAspectRatio="xMinYMin meet" viewBox={`0 0 ${VIEWBOX_WIDTH} ${VIEWBOX_HEIGHT}`} className="main-graph" ref={this.graphRef} />
+      <Card>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox={`0 0 ${VIEWBOX_WIDTH} ${VIEWBOX_HEIGHT}`} className="main-graph" ref={this.graphRef} />
+      </Card>
     );
   }
 }

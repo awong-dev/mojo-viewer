@@ -22,8 +22,8 @@ $mdc-theme-secondary: #005daa;
 }
 
 .card {
-  width: 400px;
-  margin: 1ex;
+  width: 100%;
+  margin: 10px 10px 10px 10px;
   padding: 0px 5px 0px 5px;
 }
 
@@ -65,7 +65,13 @@ $mdc-theme-secondary: #005daa;
 
 .main-graph .edges line {
   stroke: #999;
-  stroke-opacity: 0.6;
+  stroke-opacity: 0.8;
   display: inline-block;
   left: 0;
+}
+
+.view {
+  fill: "pink";
+  opacity: 100%;
+  stroke: #000;
 }
