@@ -1,6 +1,7 @@
-import React from 'react'
-import Card from './Card'
-import * as d3 from 'd3'
+import React from 'react';
+import Card from './Card';
+import * as d3 from 'd3';
+import Select from 'react-select';
 
 const VIEWBOX_WIDTH = 4096;
 const VIEWBOX_HEIGHT = 2048;
@@ -30,30 +31,60 @@ class Digraph extends React.Component {
     super(props);
     this.graphRef = React.createRef();
     this.updateGraph = this.updateGraph.bind(this);
+    this.handleFilterChange = this.handleFilterChange.bind(this);
+    this.graphData = this.graphData.bind(this);
+    this.state = { filter: null };
+  }
+
+  graphData() {
+    //const graphData = TEST_GRAPH;
+    const data_set = this.props.graphData;
+    if (this.state.filter === null) {
+      return data_set;
+    }
+
+    const filtered_node_ids = new Set();
+    filtered_node_ids.add(this.state.filter.value);
+    const filtered_edges = [];
+
+    // Snag nodes 2 degress out.
+    //
+    // TODO(ajwong): The simulation is *changing* the data to have direct node links instead
+    // of ID.s What is going on?
+    for (let i = 0; i < 2; ++i) {
+      filtered_edges.push(...data_set.edges.filter(e => filtered_node_ids.has(e.source.id) || filtered_node_ids.has(e.target.id)));
+      filtered_edges.forEach(e => {filtered_node_ids.add(e.source.id); filtered_node_ids.add(e.target.id);});
+    }
+
+    const filtered_data = {
+      nodes: data_set.nodes.filter(n => filtered_node_ids.has(n.id)),
+      edges: filtered_edges
+    };
+    return filtered_data;
+  }
+
+  handleFilterChange(filter) {
+    this.setState({filter});
   }
 
   updateGraph() {
     const graphRoot = d3.select(this.graphRef.current);
-    //const graphData = TEST_GRAPH;
-    const graphData = this.props.graphData;
 
+    const data_set = this.graphData();
+    console.log("graph data", data_set);
     // Generate the base elements in the svg for edges and nodes.
-    const edge = graphRoot.select(".edges").selectAll("line")
-      .data(graphData.edges).enter()
-      .append("line")
-      .attr("stroke-width", d => 10 );
+    const edge_set = graphRoot.select(".edges").selectAll("line").data(data_set.edges);
+    const edge = edge_set.enter().append("line").attr("stroke-width", d => 2 );
+    edge_set.exit().remove();
 
-    edge.exit().remove();
-
-    const node = graphRoot.select(".nodes").selectAll("g")
-      .data(graphData.nodes)
-      .enter().append("g");
-    node.exit().remove();
+    const node_set = graphRoot.select(".nodes").selectAll("g").data(data_set.nodes);
+    const node = node_set.enter().append("g");
+    node_set.exit().remove();
 
     // Draw the circles representing the nodes. They are also the drag
     // locations.
-    const categories = [...new Set(graphData.nodes.map(n => n.category))];
-    const in_degrees = graphData.nodes.map(n => n.in_degree).sort();
+    const categories = [...new Set(data_set.nodes.map(n => n.category))];
+    const in_degrees = data_set.nodes.map(n => n.in_degree).sort();
     const category_color = d3.scaleOrdinal().domain(categories).range(d3.schemeCategory10);
     const circles = node.append("circle")
         .attr("r", n => calcRadius(n))
@@ -105,6 +136,7 @@ class Digraph extends React.Component {
       .domain(categories)
       .range([0, VIEWBOX_WIDTH])
       .paddingOuter(.2);
+
     this.simulation = d3.forceSimulation()
       .force("x", d3.forceX().x(n => bandScale(n.category)).strength(1))
       .force("charge", d3.forceManyBody().strength(n => -(calcRadius(n) * 2)))
@@ -112,11 +144,11 @@ class Digraph extends React.Component {
       ;
 
     this.simulation
-        .nodes(graphData.nodes)
+        .nodes(data_set.nodes)
         .on("tick", ticked);
 
     this.simulation.force("link")
-        .links(graphData.edges);
+        .links(data_set.edges);
   }
 
   componentDidMount() {
@@ -142,8 +174,11 @@ class Digraph extends React.Component {
   }
 
   render() {
+    const options = this.props.graphData.nodes.map(n => ({"value": n.id, "label": n.name}));
+
     return (
       <Card title="Shows mojo connections. Nodes are classes. Edges are mojom interfaces.">
+        <Select value={this.state.filter} onChange={this.handleFilterChange} options={options} />
         <svg preserveAspectRatio="xMinYMin meet" viewBox={`0 0 ${VIEWBOX_WIDTH} ${VIEWBOX_HEIGHT}`} className="main-graph" ref={this.graphRef} />
       </Card>
     );
