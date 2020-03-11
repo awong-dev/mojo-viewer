@@ -1,7 +1,8 @@
 # Mojo Visualizer
 
 ## What is this?
-It visualizes thigns
+It visualizes things. See the code here:
+https://awong-dev.github.io/mojo-viewer/public/
 
 ## How do I install it?
   1. Install nvm to get node version manager (cause otherwise the world goes

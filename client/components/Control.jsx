@@ -3,8 +3,11 @@ import React from 'react';
 function Control({data, onChange}) {
   return (
     <div>
-      <label htmlFor="search-box">Search:</label>
-      <input type="text" name="search-box" onChange={onChange} />
+        This is a WIP. It shows mojo Remote/Reciever relations as joined by
+        the interface type. It also drops some extremely high-degree types
+        that don't display well.
+
+        Use the search box below to restrict the search down.
     </div>
   );
 }
