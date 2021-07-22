@@ -91,6 +91,6 @@
     "webpack-dev-server": "^3.8.0",
     "whatwg-fetch": "^3.0.0",
     "winston": "^2.4.4",
-    "xlsx": "^0.15.5"
+    "xlsx": "^0.17.0"
   }
 }
